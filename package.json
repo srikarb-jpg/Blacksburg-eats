@@ -1,0 +1,32 @@
+{
+  "name": "blacksburg-eats-1",
+  "version": "1.0.0",
+  "description": "Blacksburg Eats: a local restaurant discovery and review demo",
+  "scripts": {
+    "dev": "node server.mjs",
+    "start": "node server.mjs --production",
+    "build": "vite build",
+    "test": "playwright test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/srikarb-jpg/Blacksburg-eats.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/srikarb-jpg/Blacksburg-eats/issues"
+  },
+  "homepage": "https://github.com/srikarb-jpg/Blacksburg-eats#readme",
+  "devDependencies": {
+    "@axe-core/playwright": "^4.13.0",
+    "@playwright/test": "^1.63.0",
+    "pdfjs-dist": "^6.3.289",
+    "vite": "^8.3.0"
+  },
+  "dependencies": {
+    "leaflet": "^1.9.4"
+  }
+}
