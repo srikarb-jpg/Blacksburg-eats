@@ -1,5 +1,8 @@
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
+import 'leaflet.markercluster';
+import 'leaflet.markercluster/dist/MarkerCluster.css';
+import 'leaflet.markercluster/dist/MarkerCluster.Default.css';
 import './map.css';
 
 export function createRestaurantMap(openRestaurant) {
@@ -7,10 +10,10 @@ export function createRestaurantMap(openRestaurant) {
   const container=document.querySelector('#restaurant-map');
   const toggle=document.querySelector('#toggle-map');
   const status=document.querySelector('#map-status');
-  let map, markers, connectors, tiles, current=[], entries=[], previousIds='', tileFailed=false;
+  let map, markers, clusters, connectors, tiles, current=[], entries=[], previousIds='', tileFailed=false, clustered=false;
 
   function separatePins() {
-    if(!map)return;
+    if(!map||clustered)return;
     connectors.clearLayers();
     const placed=[];
     entries.forEach(({marker,r})=>{
@@ -44,6 +47,7 @@ export function createRestaurantMap(openRestaurant) {
     map=L.map(container,{scrollWheelZoom:false,zoomControl:true}).setView([37.226,-80.416],14);
     map.attributionControl.setPrefix('<a href="https://leafletjs.com">Leaflet</a>');
     markers=L.layerGroup().addTo(map);
+    clusters=L.markerClusterGroup({showCoverageOnHover:false,maxClusterRadius:48});
     connectors=L.layerGroup().addTo(map);
     map.on('zoomend',separatePins);
     tiles=L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',{
@@ -53,33 +57,40 @@ export function createRestaurantMap(openRestaurant) {
     tiles.on('tileerror',()=>{tileFailed=true;status.hidden=false;});
     tiles.on('load',()=>{status.hidden=!tileFailed;});
     tiles.addTo(map);
-    container.addEventListener('keydown',e=>{
-      if((e.key==='Enter'||e.code==='Space')&&e.target.classList.contains('restaurant-pin')){
-        e.preventDefault();e.stopPropagation();
-        openRestaurant(Number(e.target.dataset.restaurantId));
-      }
-    });
     new ResizeObserver(()=>{map.invalidateSize();separatePins();}).observe(container);
   }
   function draw() {
     if(panel.hidden)return;
     initialize();
     markers.clearLayers();
+    clusters.clearLayers();
+    clustered=current.length>30;
+    if(clustered){map.removeLayer(markers);clusters.addTo(map);}
+    else{map.removeLayer(clusters);markers.addTo(map);}
+    connectors.clearLayers();
     entries=[];
-    current.forEach(r=>{
+    current.forEach((r,index)=>{
       const name=`${r.name}: ${r.rating?r.rating.toFixed(1)+' out of 5':'not yet rated'}. Open details and reviews`;
       const marker=L.marker([r.lat,r.lng],{
-        icon:L.divIcon({className:'restaurant-pin',html:`<span aria-hidden="true">${Number(r.id)}</span>`,iconSize:[34,42],iconAnchor:[17,42],tooltipAnchor:[0,-39]}),
+        icon:L.divIcon({className:'restaurant-pin',html:`<span aria-hidden="true">${index+1}</span>`,iconSize:[34,42],iconAnchor:[17,42],tooltipAnchor:[0,-39]}),
         title:name,alt:name,keyboard:true,riseOnHover:true
-      }).addTo(markers);
+      });
+      marker.addTo(clustered?clusters:markers);
       const tooltip=document.createElement('span');tooltip.textContent=`${r.name} · ${r.rating?r.rating.toFixed(1)+' ★':'New'}`;
       marker.bindTooltip(tooltip,{direction:'top'});
-      marker.getElement().setAttribute('aria-label',name);
-      marker.getElement().dataset.restaurantId=r.id;
+      const prepareElement=()=>{
+        const element=marker.getElement();if(!element)return;
+        element.setAttribute('aria-label',name);
+        element.dataset.restaurantId=r.id;
+        element.onkeydown=e=>{if(e.key==='Enter'||e.key===' '||e.code==='Space'){
+          e.preventDefault();e.stopPropagation();openRestaurant(r.id);
+        }};
+      };
+      prepareElement();marker.on('add',prepareElement);
       marker.on('click',()=>{marker.closeTooltip();openRestaurant(r.id);});
       entries.push({marker,r});
     });
-    const ids=current.map(r=>r.id).sort().join(',');
+    const ids=current.map(r=>r.id).join(',');
     if(ids!==previousIds){fit();previousIds=ids;}
     separatePins();
     document.querySelector('#map-count').textContent=current.length?`${current.length} ${current.length===1?'restaurant':'restaurants'} on the map`:'No matching restaurants on the map';

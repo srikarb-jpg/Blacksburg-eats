@@ -1,0 +1,4315 @@
+{
+  "center": {
+    "lat": 37.22748333333333,
+    "lng": -80.4221388888889
+  },
+  "radius_miles": 10,
+  "release": "2026-09-23.1",
+  "retrieved": "2026-10-05T18:41:02.513Z",
+  "source": "Overture Maps Places",
+  "attribution": "https://overturemaps.org/",
+  "entries": [
+    {
+      "id": 4538388672178,
+      "source_id": "1c2f5b72-24c0-4571-8bc8-867f884afb8f",
+      "name": "Deet's Place",
+      "cuisine": "Restaurant",
+      "area": "Virginia Tech area",
+      "description": "Restaurant listed within 10 miles of Virginia Tech.",
+      "website": "http://www.vt.edu/",
+      "website_label": "Listing website",
+      "initials": "DP",
+      "tags": [
+        "Restaurant"
+      ],
+      "address": "285 Ag-Quad Ln",
+      "lat": 37.2243537902832,
+      "lng": -80.42120361328125,
+      "distance_miles": 0.2
+    },
+    {
+      "id": 11457554919880,
+      "source_id": "137057c4-35e3-447d-8e1f-d560da84b34e",
+      "name": "Hokie Grill and Co",
+      "cuisine": "Bar And Grill",
+      "area": "Virginia Tech area",
+      "description": "Bar And Grill listed within 10 miles of Virginia Tech.",
+      "website": "http://www.dining.vt.edu/centers/hokiegrill.php",
+      "website_label": "Listing website",
+      "initials": "HG",
+      "tags": [
+        "Bar And Grill"
+      ],
+      "address": "Owens Hall, Kent St",
+      "lat": 37.22692108154297,
+      "lng": -80.41840362548828,
+      "distance_miles": 0.2
+    },
+    {
+      "id": 10045467958673,
+      "source_id": "d86ef718-9b55-4a84-adb7-43145ad28237",
+      "name": "Origami",
+      "cuisine": "Restaurant",
+      "area": "Virginia Tech area",
+      "description": "Restaurant listed within 10 miles of Virginia Tech.",
+      "website": "",
+      "website_label": "Listing website",
+      "initials": "O",
+      "tags": [
+        "Restaurant"
+      ],
+      "address": "409 Old Turner St",
+      "lat": 37.23088836669922,
+      "lng": -80.42266082763672,
+      "distance_miles": 0.2
+    },
+    {
+      "id": 5364818654943,
+      "source_id": "bba0f5d0-cfea-4885-a58d-51370a32f9d1",
+      "name": "Owens Food Court",
+      "cuisine": "Cafeteria",
+      "area": "Virginia Tech area",
+      "description": "Cafeteria listed within 10 miles of Virginia Tech.",
+      "website": "",
+      "website_label": "Listing website",
+      "initials": "OF",
+      "tags": [
+        "Cafeteria"
+      ],
+      "address": "150 Kent St",
+      "lat": 37.22665786743164,
+      "lng": -80.41886901855469,
+      "distance_miles": 0.2
+    },
+    {
+      "id": 17067963575769,
+      "source_id": "e1215ce7-036b-495d-8a05-302fb52ec0de",
+      "name": "Pizza Hut",
+      "cuisine": "Pizza",
+      "area": "Virginia Tech area",
+      "description": "Pizza listed within 10 miles of Virginia Tech.",
+      "website": "https://locations.pizzahut.com/va/blacksburg/owens-dining-hall",
+      "website_label": "Listing website",
+      "initials": "PH",
+      "tags": [
+        "Pizza"
+      ],
+      "address": "Owens Dining Hall Montgomery",
+      "lat": 37.226505279541016,
+      "lng": -80.4188003540039,
+      "distance_miles": 0.2
+    },
+    {
+      "id": 8402996428469,
+      "source_id": "8ca82785-60c0-4f4e-a18a-026af6144525",
+      "name": "Atomic Pizzeria",
+      "cuisine": "Pizza",
+      "area": "Virginia Tech area",
+      "description": "Pizza listed within 10 miles of Virginia Tech.",
+      "website": "",
+      "website_label": "Listing website",
+      "initials": "AP",
+      "tags": [
+        "Pizza"
+      ],
+      "address": "430 210 Old Turner St",
+      "lat": 37.231170654296875,
+      "lng": -80.42278289794922,
+      "distance_miles": 0.3
+    },
+    {
+      "id": 17326681345851,
+      "source_id": "193820f2-93ea-43ec-8843-8c6f85df9af8",
+      "name": "Au Bon Pain",
+      "cuisine": "Cafe",
+      "area": "Virginia Tech area",
+      "description": "Cafe listed within 10 miles of Virginia Tech.",
+      "website": "http://www.aubonpain.com/",
+      "website_label": "Listing website",
+      "initials": "AB",
+      "tags": [
+        "Cafe"
+      ],
+      "address": "125 College Ave.",
+      "lat": 37.22920608520508,
+      "lng": -80.4181137084961,
+      "distance_miles": 0.3
+    },
+    {
+      "id": 719891615160,
+      "source_id": "86491580-0b1e-46ba-a3d0-bb8f69a19804",
+      "name": "QDOBA Mexican Eats",
+      "cuisine": "Mexican",
+      "area": "Virginia Tech area",
+      "description": "Mexican listed within 10 miles of Virginia Tech.",
+      "website": "https://locations.qdoba.com/us/va/blacksburg/117a-lavery-hall",
+      "website_label": "Listing website",
+      "initials": "QM",
+      "tags": [
+        "Mexican"
+      ],
+      "address": "Lavery Hall",
+      "lat": 37.23120880126953,
+      "lng": -80.42281341552734,
+      "distance_miles": 0.3
+    },
+    {
+      "id": 16670682023041,
+      "source_id": "81a86a5e-4408-41bf-b7a7-26dd74d803b6",
+      "name": "540 Social - Blacksburg",
+      "cuisine": "Restaurant",
+      "area": "Virginia Tech area",
+      "description": "Restaurant listed within 10 miles of Virginia Tech.",
+      "website": "https://www.540.social/",
+      "website_label": "Listing website",
+      "initials": "5S",
+      "tags": [
+        "Restaurant"
+      ],
+      "address": "125 N Main St",
+      "lat": 37.229854583740234,
+      "lng": -80.41552734375,
+      "distance_miles": 0.4
+    },
+    {
+      "id": 10833375567889,
+      "source_id": "0f10434f-4cf2-446d-8bd7-79b0e82255e6",
+      "name": "Benny Marzano's",
+      "cuisine": "Pizza",
+      "area": "Virginia Tech area",
+      "description": "Pizza listed within 10 miles of Virginia Tech.",
+      "website": "http://www.bennysva.com/",
+      "website_label": "Listing website",
+      "initials": "BM",
+      "tags": [
+        "Pizza"
+      ],
+      "address": "110 Draper Rd NW",
+      "lat": 37.22941589355469,
+      "lng": -80.41525268554688,
+      "distance_miles": 0.4
+    },
+    {
+      "id": 10739403737223,
+      "source_id": "202bf4c1-1b31-4d46-a649-934f392e1418",
+      "name": "Blacksburg No 1",
+      "cuisine": "Dim Sum",
+      "area": "Virginia Tech area",
+      "description": "Dim Sum listed within 10 miles of Virginia Tech.",
+      "website": "http://www.blacksburgnumber1.com",
+      "website_label": "Listing website",
+      "initials": "BN",
+      "tags": [
+        "Dim Sum"
+      ],
+      "address": "125 N Main St #400",
+      "lat": 37.2297477722168,
+      "lng": -80.4145278930664,
+      "distance_miles": 0.4
+    },
+    {
+      "id": 9269114972111,
+      "source_id": "3d5d3177-0302-4506-8327-811e1080183e",
+      "name": "Bollo's Cafe & Bakery",
+      "cuisine": "Cafe",
+      "area": "Virginia Tech area",
+      "description": "Cafe listed within 10 miles of Virginia Tech.",
+      "website": "http://bolloscafe.com/",
+      "website_label": "Listing website",
+      "initials": "BC",
+      "tags": [
+        "Cafe"
+      ],
+      "address": "206 Draper Rd NW",
+      "lat": 37.22976303100586,
+      "lng": -80.41590118408203,
+      "distance_miles": 0.4
+    },
+    {
+      "id": 4932360733203,
+      "source_id": "5a228921-6c56-41c5-9dbb-2fc3f43a2999",
+      "name": "Bottom Of The Stairs",
+      "cuisine": "Barbecue",
+      "area": "Virginia Tech area",
+      "description": "Barbecue listed within 10 miles of Virginia Tech.",
+      "website": "http://bottomofthestairs.com",
+      "website_label": "Listing website",
+      "initials": "BO",
+      "tags": [
+        "Barbecue"
+      ],
+      "address": "217 College Ave",
+      "lat": 37.22966384887695,
+      "lng": -80.41631317138672,
+      "distance_miles": 0.4
+    },
+    {
+      "id": 4871137627210,
+      "source_id": "4a6a9cf8-8ac6-4770-a592-c8b286e8697d",
+      "name": "Boudreaux's",
+      "cuisine": "Cajun And Creole",
+      "area": "Virginia Tech area",
+      "description": "Cajun And Creole listed within 10 miles of Virginia Tech.",
+      "website": "http://www.boudreauxs.com",
+      "website_label": "Listing website",
+      "initials": "B",
+      "tags": [
+        "Cajun And Creole"
+      ],
+      "address": "205 N Main St",
+      "lat": 37.23008728027344,
+      "lng": -80.41497039794922,
+      "distance_miles": 0.4
+    },
+    {
+      "id": 16551642126435,
+      "source_id": "347f40c3-5db8-4ada-89df-ad876a018bea",
+      "name": "Centro Taco Bar",
+      "cuisine": "Mexican",
+      "area": "Virginia Tech area",
+      "description": "Mexican listed within 10 miles of Virginia Tech.",
+      "website": "http://www.centrotacobar.com/",
+      "website_label": "Listing website",
+      "initials": "CT",
+      "tags": [
+        "Mexican"
+      ],
+      "address": "201 N Main St",
+      "lat": 37.22993087768555,
+      "lng": -80.41490936279297,
+      "distance_miles": 0.4
+    },
+    {
+      "id": 9134061908287,
+      "source_id": "857e03b2-e7de-44f5-942b-f88e99aea358",
+      "name": "D.P. Dough",
+      "cuisine": "Pizza",
+      "area": "Virginia Tech area",
+      "description": "Pizza listed within 10 miles of Virginia Tech.",
+      "website": "http://www.dpdough.com/",
+      "website_label": "Listing website",
+      "initials": "DD",
+      "tags": [
+        "Pizza"
+      ],
+      "address": "215 N Main St",
+      "lat": 37.23026657104492,
+      "lng": -80.4150619506836,
+      "distance_miles": 0.4
+    },
+    {
+      "id": 7172204722186,
+      "source_id": "a816466c-8b6e-4364-be82-07f762442f45",
+      "name": "Downtown Pizza",
+      "cuisine": "Pizza",
+      "area": "Virginia Tech area",
+      "description": "Pizza listed within 10 miles of Virginia Tech.",
+      "website": "https://www.downtownpizzablacksburg.com/?utm_source=bing&utm_medium=websiteurl&utm_campaign=search",
+      "website_label": "Listing website",
+      "initials": "DP",
+      "tags": [
+        "Pizza"
+      ],
+      "address": "145 College Ave",
+      "lat": 37.23017501831055,
+      "lng": -80.41580200195312,
+      "distance_miles": 0.4
+    },
+    {
+      "id": 6926378317653,
+      "source_id": "118695f7-12bc-43b5-a9e9-4e363ebceb78",
+      "name": "Five Guys",
+      "cuisine": "Burger",
+      "area": "Virginia Tech area",
+      "description": "Burger listed within 10 miles of Virginia Tech.",
+      "website": "https://order.fiveguys.com/menu/five-guys-blackburg/",
+      "website_label": "Listing website",
+      "initials": "FG",
+      "tags": [
+        "Burger"
+      ],
+      "address": "400 Turner St",
+      "lat": 37.233280181884766,
+      "lng": -80.42194366455078,
+      "distance_miles": 0.4
+    },
+    {
+      "id": 14258022566848,
+      "source_id": "d261102e-721b-4385-a965-093f589c4045",
+      "name": "G2’s All American Grill",
+      "cuisine": "American",
+      "area": "Virginia Tech area",
+      "description": "American listed within 10 miles of Virginia Tech.",
+      "website": "https://www.g2sallamericangrill.com",
+      "website_label": "Listing website",
+      "initials": "GA",
+      "tags": [
+        "American"
+      ],
+      "address": "145 College Ave",
+      "lat": 37.230133056640625,
+      "lng": -80.4158935546875,
+      "distance_miles": 0.4
+    },
+    {
+      "id": 4204371438418,
+      "source_id": "541903be-362a-47b4-8497-ee2a4a00a2ab",
+      "name": "Green's Grill & Sushi Bar",
+      "cuisine": "Sushi",
+      "area": "Virginia Tech area",
+      "description": "Sushi listed within 10 miles of Virginia Tech.",
+      "website": "https://www.greensgrillsushibar.com/p03szrdx/greens-grill-and-sushi-bar-blacksburg-24060/order-online?menu=Grill+Menu&category=Appetizers",
+      "website_label": "Listing website",
+      "initials": "GG",
+      "tags": [
+        "Sushi"
+      ],
+      "address": "109 College Ave",
+      "lat": 37.23038864135742,
+      "lng": -80.41559600830078,
+      "distance_miles": 0.4
+    },
+    {
+      "id": 7354256173246,
+      "source_id": "2f59b464-fbe9-45a4-89eb-0c2fa80a6c89",
+      "name": "Happy Wok",
+      "cuisine": "Asian Fusion",
+      "area": "Virginia Tech area",
+      "description": "Asian Fusion listed within 10 miles of Virginia Tech.",
+      "website": "https://www.happywokblacksburgva.com/?utm_source=bing&utm_medium=websiteurl&utm_campaign=search",
+      "website_label": "Listing website",
+      "initials": "HW",
+      "tags": [
+        "Asian Fusion"
+      ],
+      "address": "141 College Ave",
+      "lat": 37.23020935058594,
+      "lng": -80.41575622558594,
+      "distance_miles": 0.4
+    },
+    {
+      "id": 16132301633431,
+      "source_id": "7bf6f49d-64f8-4272-95c2-5f0d1af1125f",
+      "name": "Higgins Hydroponics and Market Grill",
+      "cuisine": "Restaurant",
+      "area": "Virginia Tech area",
+      "description": "Restaurant listed within 10 miles of Virginia Tech.",
+      "website": "",
+      "website_label": "Listing website",
+      "initials": "HH",
+      "tags": [
+        "Restaurant"
+      ],
+      "address": "100 Draper Rd SW",
+      "lat": 37.228721618652344,
+      "lng": -80.41441345214844,
+      "distance_miles": 0.4
+    },
+    {
+      "id": 2122715434917,
+      "source_id": "eb1f66ec-3809-4818-86a7-ec0f97a4cefc",
+      "name": "Junzi Kitchen | Virginia Tech, Blacksburg VA | Healthy Flavorful Chinese",
+      "cuisine": "Chinese",
+      "area": "Virginia Tech area",
+      "description": "Chinese listed within 10 miles of Virginia Tech.",
+      "website": "https://www.junzi.kitchen/",
+      "website_label": "Listing website",
+      "initials": "JK",
+      "tags": [
+        "Chinese"
+      ],
+      "address": "220 Gilbert St Ste 115",
+      "lat": 37.233360290527344,
+      "lng": -80.42170715332031,
+      "distance_miles": 0.4
+    },
+    {
+      "id": 9411824892027,
+      "source_id": "7e79816f-3101-4bc7-a61b-af3b6fbc6887",
+      "name": "Kabob and More",
+      "cuisine": "Middle Eastern",
+      "area": "Virginia Tech area",
+      "description": "Middle Eastern listed within 10 miles of Virginia Tech.",
+      "website": "https://kabob-nrv.com/",
+      "website_label": "Listing website",
+      "initials": "KA",
+      "tags": [
+        "Middle Eastern"
+      ],
+      "address": "141 College Ave",
+      "lat": 37.230201721191406,
+      "lng": -80.41575622558594,
+      "distance_miles": 0.4
+    },
+    {
+      "id": 10764904202211,
+      "source_id": "d6e4ed34-4da4-409c-8541-c1fb2356fbe4",
+      "name": "MixMix Korea",
+      "cuisine": "Korean",
+      "area": "Virginia Tech area",
+      "description": "Korean listed within 10 miles of Virginia Tech.",
+      "website": "http://mixmixkorea.com/",
+      "website_label": "Listing website",
+      "initials": "MK",
+      "tags": [
+        "Korean"
+      ],
+      "address": "201 N Main St",
+      "lat": 37.229949951171875,
+      "lng": -80.41496276855469,
+      "distance_miles": 0.4
+    },
+    {
+      "id": 10711491768224,
+      "source_id": "16251f58-6fc3-4f84-abc6-157b5e318b50",
+      "name": "Moe's Southwest Grill",
+      "cuisine": "Mexican",
+      "area": "Virginia Tech area",
+      "description": "Mexican listed within 10 miles of Virginia Tech.",
+      "website": "https://www.moes.com",
+      "website_label": "Listing website",
+      "initials": "MS",
+      "tags": [
+        "Mexican"
+      ],
+      "address": "239 N Main St",
+      "lat": 37.23042678833008,
+      "lng": -80.41536712646484,
+      "distance_miles": 0.4
+    },
+    {
+      "id": 3629682364249,
+      "source_id": "ac81c506-dd58-4244-9c93-16375dcd4edc",
+      "name": "Namaste Kitchen",
+      "cuisine": "Nepalese",
+      "area": "Virginia Tech area",
+      "description": "Nepalese listed within 10 miles of Virginia Tech.",
+      "website": "https://namastekitchen.net",
+      "website_label": "Listing website",
+      "initials": "NK",
+      "tags": [
+        "Nepalese"
+      ],
+      "address": "239 N Main St",
+      "lat": 37.230430603027344,
+      "lng": -80.41533660888672,
+      "distance_miles": 0.4
+    },
+    {
+      "id": 8524287786716,
+      "source_id": "1b1b3950-3f25-4d1a-8667-01bca69ccc66",
+      "name": "Poor Billy's Seafood Restaurant",
+      "cuisine": "Sushi",
+      "area": "Virginia Tech area",
+      "description": "Sushi listed within 10 miles of Virginia Tech.",
+      "website": "http://www.bigalspoorbillys.com/poorbillys/",
+      "website_label": "Listing website",
+      "initials": "PB",
+      "tags": [
+        "Sushi"
+      ],
+      "address": "201 N Main St",
+      "lat": 37.23004150390625,
+      "lng": -80.41494750976562,
+      "distance_miles": 0.4
+    },
+    {
+      "id": 13555623058252,
+      "source_id": "b9ab2bf3-b068-4ae0-a01a-96b61d3250c7",
+      "name": "Ridiculous Chicken",
+      "cuisine": "Korean",
+      "area": "Virginia Tech area",
+      "description": "Korean listed within 10 miles of Virginia Tech.",
+      "website": "http://ridiculouschicken.net/",
+      "website_label": "Listing website",
+      "initials": "RC",
+      "tags": [
+        "Korean"
+      ],
+      "address": "201 N Main St",
+      "lat": 37.22990417480469,
+      "lng": -80.41494750976562,
+      "distance_miles": 0.4
+    },
+    {
+      "id": 170480371412,
+      "source_id": "609a3e0f-8d6e-47a2-8397-5e0a691c7623",
+      "name": "Rivermill Bar and Grill",
+      "cuisine": "Bar And Grill",
+      "area": "Virginia Tech area",
+      "description": "Bar And Grill listed within 10 miles of Virginia Tech.",
+      "website": "http://www.rivermillbarandgrill.com",
+      "website_label": "Listing website",
+      "initials": "RB",
+      "tags": [
+        "Bar And Grill"
+      ],
+      "address": "212 Draper Rd NW",
+      "lat": 37.22991943359375,
+      "lng": -80.41598510742188,
+      "distance_miles": 0.4
+    },
+    {
+      "id": 9635378822832,
+      "source_id": "bb32f4d2-1aa9-43bd-8e98-a29999a37a01",
+      "name": "Souvlaki",
+      "cuisine": "Greek",
+      "area": "Virginia Tech area",
+      "description": "Greek listed within 10 miles of Virginia Tech.",
+      "website": "http://www.eatsouvlaki.com/",
+      "website_label": "Listing website",
+      "initials": "S",
+      "tags": [
+        "Greek"
+      ],
+      "address": "201 College Ave",
+      "lat": 37.229942321777344,
+      "lng": -80.41632080078125,
+      "distance_miles": 0.4
+    },
+    {
+      "id": 9655134823310,
+      "source_id": "63d06ede-8068-43a1-9942-11a93790d77e",
+      "name": "The Black Hen & Bar Blue",
+      "cuisine": "American",
+      "area": "Virginia Tech area",
+      "description": "American listed within 10 miles of Virginia Tech.",
+      "website": "",
+      "website_label": "Listing website",
+      "initials": "TB",
+      "tags": [
+        "American"
+      ],
+      "address": "126 Jackson St NW",
+      "lat": 37.22987747192383,
+      "lng": -80.4153060913086,
+      "distance_miles": 0.4
+    },
+    {
+      "id": 13627626187990,
+      "source_id": "1f4583f8-1d28-46af-aef4-1aa20678818c",
+      "name": "The Burg Resto-Bar",
+      "cuisine": "Latin American",
+      "area": "Virginia Tech area",
+      "description": "Latin American listed within 10 miles of Virginia Tech.",
+      "website": "https://linktr.ee/theburgblacksburg?fbclid=IwAR2jNTrhouosAFkLqNVwfufJL1KClQ3VYOoZYyTmcBGV1GGmVFr-Tp7R3so",
+      "website_label": "Listing website",
+      "initials": "TB",
+      "tags": [
+        "Latin American"
+      ],
+      "address": "204 Draper Rd NW",
+      "lat": 37.22965621948242,
+      "lng": -80.41571807861328,
+      "distance_miles": 0.4
+    },
+    {
+      "id": 15843850604467,
+      "source_id": "a18c2c4f-ac4f-4f46-9eff-e061a90230d4",
+      "name": "The Coop",
+      "cuisine": "Bar And Grill",
+      "area": "Virginia Tech area",
+      "description": "Bar And Grill listed within 10 miles of Virginia Tech.",
+      "website": "https://www.thecoopblacksburg.com/",
+      "website_label": "Listing website",
+      "initials": "TC",
+      "tags": [
+        "Bar And Grill"
+      ],
+      "address": "235 N Main St",
+      "lat": 37.23044967651367,
+      "lng": -80.41529083251953,
+      "distance_miles": 0.4
+    },
+    {
+      "id": 4629212017882,
+      "source_id": "908eda86-64da-43bf-93b3-a052a76175e0",
+      "name": "Tokyo Grill",
+      "cuisine": "Barbecue",
+      "area": "Virginia Tech area",
+      "description": "Barbecue listed within 10 miles of Virginia Tech.",
+      "website": "http://tokyogrilljapaneseexpress.com",
+      "website_label": "Listing website",
+      "initials": "TG",
+      "tags": [
+        "Barbecue"
+      ],
+      "address": "460 Turner St NW Ste 214",
+      "lat": 37.233436584472656,
+      "lng": -80.42263793945312,
+      "distance_miles": 0.4
+    },
+    {
+      "id": 8931651583683,
+      "source_id": "cd734a9e-d96c-4761-93f5-5e48271cb2ab",
+      "name": "Viet Pho You",
+      "cuisine": "Restaurant",
+      "area": "Virginia Tech area",
+      "description": "Restaurant listed within 10 miles of Virginia Tech.",
+      "website": "https://www.instagram.com/vietphoyou/",
+      "website_label": "Listing website",
+      "initials": "VP",
+      "tags": [
+        "Restaurant"
+      ],
+      "address": "126 Jackson St NE",
+      "lat": 37.2298698425293,
+      "lng": -80.415283203125,
+      "distance_miles": 0.4
+    },
+    {
+      "id": 259130620694,
+      "source_id": "8ff0212a-23b2-4d64-8b5e-97a2b6d56f32",
+      "name": "Zaxbys Chicken Fingers & Buffalo Wings",
+      "cuisine": "Chicken",
+      "area": "Virginia Tech area",
+      "description": "Chicken listed within 10 miles of Virginia Tech.",
+      "website": "https://www.zaxbys.com",
+      "website_label": "Listing website",
+      "initials": "ZC",
+      "tags": [
+        "Chicken"
+      ],
+      "address": "204 Turner St NW",
+      "lat": 37.232513427734375,
+      "lng": -80.41958618164062,
+      "distance_miles": 0.4
+    },
+    {
+      "id": 1875905007878,
+      "source_id": "127c1155-9e9b-45cf-a2ca-072a33ef4397",
+      "name": "622 North",
+      "cuisine": "American",
+      "area": "Virginia Tech area",
+      "description": "American listed within 10 miles of Virginia Tech.",
+      "website": "http://www.622north.com/",
+      "website_label": "Listing website",
+      "initials": "6N",
+      "tags": [
+        "American"
+      ],
+      "address": "622 N Main St",
+      "lat": 37.23463439941406,
+      "lng": -80.41940307617188,
+      "distance_miles": 0.5
+    },
+    {
+      "id": 16644236356402,
+      "source_id": "926d7bca-f86c-4047-bed1-00a92461e56a",
+      "name": "Backstreets Restaurant",
+      "cuisine": "Italian",
+      "area": "Virginia Tech area",
+      "description": "Italian listed within 10 miles of Virginia Tech.",
+      "website": "http://www.backstreetsblacksburg.com",
+      "website_label": "Listing website",
+      "initials": "BR",
+      "tags": [
+        "Italian"
+      ],
+      "address": "207 S Main St",
+      "lat": 37.22808837890625,
+      "lng": -80.41266632080078,
+      "distance_miles": 0.5
+    },
+    {
+      "id": 14529058412374,
+      "source_id": "0d6ab382-f50a-4108-9b7c-7b86f10097b9",
+      "name": "Black Salt",
+      "cuisine": "Burger",
+      "area": "Virginia Tech area",
+      "description": "Burger listed within 10 miles of Virginia Tech.",
+      "website": "http://blacksaltkitchen.com",
+      "website_label": "Listing website",
+      "initials": "BS",
+      "tags": [
+        "Burger"
+      ],
+      "address": "610 N Main St",
+      "lat": 37.234127044677734,
+      "lng": -80.4187240600586,
+      "distance_miles": 0.5
+    },
+    {
+      "id": 6379086180906,
+      "source_id": "cbec9afc-dcaf-4990-ab2c-ffc741eb4de9",
+      "name": "Cafe De Bangkok",
+      "cuisine": "Thai",
+      "area": "Virginia Tech area",
+      "description": "Thai listed within 10 miles of Virginia Tech.",
+      "website": "http://www.blacksburgthai.com",
+      "website_label": "Listing website",
+      "initials": "CD",
+      "tags": [
+        "Thai"
+      ],
+      "address": "104 Jackson St NE",
+      "lat": 37.23027038574219,
+      "lng": -80.41405487060547,
+      "distance_miles": 0.5
+    },
+    {
+      "id": 6904499477268,
+      "source_id": "d1d79e09-610a-443b-95b9-54b2340ecc2a",
+      "name": "Cellar Restaurant",
+      "cuisine": "Italian",
+      "area": "Virginia Tech area",
+      "description": "Italian listed within 10 miles of Virginia Tech.",
+      "website": "http://www.the-cellar.com/",
+      "website_label": "Listing website",
+      "initials": "CR",
+      "tags": [
+        "Italian"
+      ],
+      "address": "302 N Main St",
+      "lat": 37.23088836669922,
+      "lng": -80.41512298583984,
+      "distance_miles": 0.5
+    },
+    {
+      "id": 8795469201701,
+      "source_id": "1a001715-1557-477d-ac1f-1c1bd37ff89e",
+      "name": "Ceritano's Ristorante",
+      "cuisine": "Pizza",
+      "area": "Virginia Tech area",
+      "description": "Pizza listed within 10 miles of Virginia Tech.",
+      "website": "",
+      "website_label": "Listing website",
+      "initials": "CR",
+      "tags": [
+        "Pizza"
+      ],
+      "address": "428 N Main St",
+      "lat": 37.231937408447266,
+      "lng": -80.41612243652344,
+      "distance_miles": 0.5
+    },
+    {
+      "id": 5343769567584,
+      "source_id": "884737f1-ad46-4b0e-8bc7-c69166bbd751",
+      "name": "Chipotle Mexican Grill",
+      "cuisine": "Mexican",
+      "area": "Virginia Tech area",
+      "description": "Mexican listed within 10 miles of Virginia Tech.",
+      "website": "https://locations.chipotle.com/va/blacksburg/314-n-main-st?utm_source=facebook&utm_medium=yext&utm_campaign=yext_listings%3Frestaurant%3D1354",
+      "website_label": "Listing website",
+      "initials": "CM",
+      "tags": [
+        "Mexican"
+      ],
+      "address": "314 N Main St",
+      "lat": 37.231048583984375,
+      "lng": -80.41526794433594,
+      "distance_miles": 0.5
+    },
+    {
+      "id": 7430547887594,
+      "source_id": "2fa8fad9-4ce1-4c2b-b676-cd0121cba907",
+      "name": "El Rodeo North Main St",
+      "cuisine": "Mexican",
+      "area": "Virginia Tech area",
+      "description": "Mexican listed within 10 miles of Virginia Tech.",
+      "website": "http://www.elrodeova.com",
+      "website_label": "Listing website",
+      "initials": "ER",
+      "tags": [
+        "Mexican"
+      ],
+      "address": "623 N Main St",
+      "lat": 37.2340202331543,
+      "lng": -80.41963958740234,
+      "distance_miles": 0.5
+    },
+    {
+      "id": 2495233139361,
+      "source_id": "c54a5534-2327-4e24-86d5-13281537d74b",
+      "name": "Foamo",
+      "cuisine": "Cafe",
+      "area": "Virginia Tech area",
+      "description": "Cafe listed within 10 miles of Virginia Tech.",
+      "website": "",
+      "website_label": "Listing website",
+      "initials": "F",
+      "tags": [
+        "Cafe"
+      ],
+      "address": "610 N Main St  Ste A",
+      "lat": 37.234107971191406,
+      "lng": -80.41869354248047,
+      "distance_miles": 0.5
+    },
+    {
+      "id": 6641065390308,
+      "source_id": "dd28c36e-dc4f-40aa-9849-4af848eb7696",
+      "name": "Hamro Kitchen",
+      "cuisine": "Indian",
+      "area": "Virginia Tech area",
+      "description": "Indian listed within 10 miles of Virginia Tech.",
+      "website": "http://www.hamrokitchen.us",
+      "website_label": "Listing website",
+      "initials": "HK",
+      "tags": [
+        "Indian"
+      ],
+      "address": "403 Draper Rd SW",
+      "lat": 37.22665786743164,
+      "lng": -80.41226959228516,
+      "distance_miles": 0.5
+    },
+    {
+      "id": 15039879433248,
+      "source_id": "59656434-0dbc-4469-a3db-425327d05b03",
+      "name": "Hefun",
+      "cuisine": "Japanese",
+      "area": "Virginia Tech area",
+      "description": "Japanese listed within 10 miles of Virginia Tech.",
+      "website": "https://www.hefunrestaurant.com/",
+      "website_label": "Listing website",
+      "initials": "H",
+      "tags": [
+        "Japanese"
+      ],
+      "address": "428 N Main St",
+      "lat": 37.2319221496582,
+      "lng": -80.41612243652344,
+      "distance_miles": 0.5
+    },
+    {
+      "id": 5593927582161,
+      "source_id": "82e8303c-417c-4cc2-87ed-f11a0a71e74d",
+      "name": "Hokie House Restaurant",
+      "cuisine": "Restaurant",
+      "area": "Virginia Tech area",
+      "description": "Restaurant listed within 10 miles of Virginia Tech.",
+      "website": "http://hokiehouse.com/",
+      "website_label": "Listing website",
+      "initials": "HH",
+      "tags": [
+        "Restaurant"
+      ],
+      "address": "322 N Main St",
+      "lat": 37.23133087158203,
+      "lng": -80.41551971435547,
+      "distance_miles": 0.5
+    },
+    {
+      "id": 1731483516227,
+      "source_id": "a5151363-8864-4780-81ed-83528ec7e431",
+      "name": "India Garden Restaurant",
+      "cuisine": "Indian",
+      "area": "Virginia Tech area",
+      "description": "Indian listed within 10 miles of Virginia Tech.",
+      "website": "http://www.IndiaGardenonline.com/",
+      "website_label": "Listing website",
+      "initials": "IG",
+      "tags": [
+        "Indian"
+      ],
+      "address": "210 Prices Fork Rd",
+      "lat": 37.2347526550293,
+      "lng": -80.42172241210938,
+      "distance_miles": 0.5
+    },
+    {
+      "id": 15171131975795,
+      "source_id": "f25bd367-c5ac-431f-8ce9-6d7d26074551",
+      "name": "Italiano's of Blacksburg",
+      "cuisine": "Italian",
+      "area": "Virginia Tech area",
+      "description": "Italian listed within 10 miles of Virginia Tech.",
+      "website": "http://italianosonmain.com/",
+      "website_label": "Listing website",
+      "initials": "IO",
+      "tags": [
+        "Italian"
+      ],
+      "address": "610 N Main St Ste B",
+      "lat": 37.23406982421875,
+      "lng": -80.41865539550781,
+      "distance_miles": 0.5
+    },
+    {
+      "id": 2352585750590,
+      "source_id": "34f462e6-e5aa-4308-877d-28afd09d48ef",
+      "name": "Mellow Mushroom Blacksburg",
+      "cuisine": "Pizza",
+      "area": "Virginia Tech area",
+      "description": "Pizza listed within 10 miles of Virginia Tech.",
+      "website": "https://www.mellowmushroom.com/locations/va/blacksburg/207-s-main-st?utm_source=ExtNet&utm_medium=Yext",
+      "website_label": "Listing website",
+      "initials": "MM",
+      "tags": [
+        "Pizza"
+      ],
+      "address": "207 S Main St",
+      "lat": 37.228126525878906,
+      "lng": -80.41238403320312,
+      "distance_miles": 0.5
+    },
+    {
+      "id": 11148419578433,
+      "source_id": "8f2e66a7-3b98-4ced-8229-339a71a8d0b3",
+      "name": "Mike's Grill",
+      "cuisine": "Burger",
+      "area": "Virginia Tech area",
+      "description": "Burger listed within 10 miles of Virginia Tech.",
+      "website": "http://mikesgrillblacksburg.com",
+      "website_label": "Listing website",
+      "initials": "MG",
+      "tags": [
+        "Burger"
+      ],
+      "address": "418 N Main St",
+      "lat": 37.23175811767578,
+      "lng": -80.41590881347656,
+      "distance_miles": 0.5
+    },
+    {
+      "id": 15949220407670,
+      "source_id": "379dbeb4-c1bf-4cf4-aba0-1f7558ff7c7c",
+      "name": "Olaika.Blacksburg",
+      "cuisine": "Bar And Grill",
+      "area": "Virginia Tech area",
+      "description": "Bar And Grill listed within 10 miles of Virginia Tech.",
+      "website": "",
+      "website_label": "Listing website",
+      "initials": "O",
+      "tags": [
+        "Bar And Grill"
+      ],
+      "address": "130 Jackson St NE",
+      "lat": 37.2303581237793,
+      "lng": -80.4139633178711,
+      "distance_miles": 0.5
+    },
+    {
+      "id": 15440972557069,
+      "source_id": "ff53c809-5a69-4454-82d5-fc7847ef745b",
+      "name": "PK's Bar & Grill",
+      "cuisine": "Bar And Grill",
+      "area": "Virginia Tech area",
+      "description": "Bar And Grill listed within 10 miles of Virginia Tech.",
+      "website": "http://pksbarandgrill.com",
+      "website_label": "Listing website",
+      "initials": "PB",
+      "tags": [
+        "Bar And Grill"
+      ],
+      "address": "432 N Main St",
+      "lat": 37.23210144042969,
+      "lng": -80.4162826538086,
+      "distance_miles": 0.5
+    },
+    {
+      "id": 13548347742279,
+      "source_id": "bd58abf2-1ced-45fe-b721-1f43394f5f94",
+      "name": "Roma Pizza",
+      "cuisine": "Pizza",
+      "area": "Virginia Tech area",
+      "description": "Pizza listed within 10 miles of Virginia Tech.",
+      "website": "https://www.downtownpizzablacksburg.com",
+      "website_label": "Listing website",
+      "initials": "RP",
+      "tags": [
+        "Pizza"
+      ],
+      "address": "108 N Main St",
+      "lat": 37.229610443115234,
+      "lng": -80.41389465332031,
+      "distance_miles": 0.5
+    },
+    {
+      "id": 11534089910448,
+      "source_id": "a0d23b10-0c01-4afa-bdaf-36badc754d6d",
+      "name": "SLAKE Sip and Savor",
+      "cuisine": "Restaurant",
+      "area": "Virginia Tech area",
+      "description": "Restaurant listed within 10 miles of Virginia Tech.",
+      "website": "",
+      "website_label": "Listing website",
+      "initials": "SS",
+      "tags": [
+        "Restaurant"
+      ],
+      "address": "610 N Main St",
+      "lat": 37.23418045043945,
+      "lng": -80.41857147216797,
+      "distance_miles": 0.5
+    },
+    {
+      "id": 6295441148998,
+      "source_id": "2b42ba73-056a-4497-a76c-15122b458687",
+      "name": "Spicity",
+      "cuisine": "Chinese",
+      "area": "Virginia Tech area",
+      "description": "Chinese listed within 10 miles of Virginia Tech.",
+      "website": "https://spicity.square.site/?owg-fulfillment=pickup&fulfillment=PICKUP&location=LN8BEXW369END&location_id=LN8BEXW369END&rwg_token=AFd1xnEA5XN1Vstbcq66ktl_vLqNTzxXQhkfsArHe00GwZ9_00OF-fZBz2frpPHk4RFbEMAhN02t7M4haVNpVT-b_dFoJ7T5UA%3D%3D",
+      "website_label": "Listing website",
+      "initials": "S",
+      "tags": [
+        "Chinese"
+      ],
+      "address": "210 Prices Fork Rd Ste E",
+      "lat": 37.234657287597656,
+      "lng": -80.42185974121094,
+      "distance_miles": 0.5
+    },
+    {
+      "id": 16136828978638,
+      "source_id": "9c5c5fed-108f-4f05-92b2-53566f1a58af",
+      "name": "The Blacksburg Tavern",
+      "cuisine": "Bar And Grill",
+      "area": "Virginia Tech area",
+      "description": "Bar And Grill listed within 10 miles of Virginia Tech.",
+      "website": "http://www.theblacksburgtavern.com/",
+      "website_label": "Listing website",
+      "initials": "TB",
+      "tags": [
+        "Bar And Grill"
+      ],
+      "address": "103 S Main St",
+      "lat": 37.22916793823242,
+      "lng": -80.41361236572266,
+      "distance_miles": 0.5
+    },
+    {
+      "id": 2042043899770,
+      "source_id": "fdcf3f96-5042-4ce1-86a4-439e862a5653",
+      "name": "The Greeks' Alpha Pizzeria",
+      "cuisine": "Pizza",
+      "area": "Virginia Tech area",
+      "description": "Pizza listed within 10 miles of Virginia Tech.",
+      "website": "http://the-greeks-blacksburg-usa.placestars.com/",
+      "website_label": "Listing website",
+      "initials": "TG",
+      "tags": [
+        "Pizza"
+      ],
+      "address": "610 N Main St",
+      "lat": 37.23406982421875,
+      "lng": -80.41875457763672,
+      "distance_miles": 0.5
+    },
+    {
+      "id": 7928067078104,
+      "source_id": "6450722f-7dde-40c7-9440-89e7f3746975",
+      "name": "VT's Play Hard Bar & Grille",
+      "cuisine": "Restaurant",
+      "area": "Virginia Tech area",
+      "description": "Restaurant listed within 10 miles of Virginia Tech.",
+      "website": "http://vtsgrille.com/",
+      "website_label": "Listing website",
+      "initials": "VP",
+      "tags": [
+        "Restaurant"
+      ],
+      "address": "221 Progress St NE",
+      "lat": 37.2313346862793,
+      "lng": -80.41436004638672,
+      "distance_miles": 0.5
+    },
+    {
+      "id": 10037470038700,
+      "source_id": "eefd8b4d-b927-4004-b3b7-ccfd9af226cc",
+      "name": "Yeah Siam Thai",
+      "cuisine": "Thai",
+      "area": "Virginia Tech area",
+      "description": "Thai listed within 10 miles of Virginia Tech.",
+      "website": "https://www.yeahsiamthai.com/",
+      "website_label": "Listing website",
+      "initials": "YS",
+      "tags": [
+        "Thai"
+      ],
+      "address": "104 Jackson St NE",
+      "lat": 37.230247497558594,
+      "lng": -80.41410064697266,
+      "distance_miles": 0.5
+    },
+    {
+      "id": 4472039837804,
+      "source_id": "4b517f12-3050-4372-82ac-407ba4874ac7",
+      "name": "Bb Cup",
+      "cuisine": "Korean",
+      "area": "Virginia Tech area",
+      "description": "Korean listed within 10 miles of Virginia Tech.",
+      "website": "http://bbcup.placeweb.site",
+      "website_label": "Listing website",
+      "initials": "BC",
+      "tags": [
+        "Korean"
+      ],
+      "address": "301 S Main St, #106",
+      "lat": 37.22771072387695,
+      "lng": -80.411865234375,
+      "distance_miles": 0.6
+    },
+    {
+      "id": 14891231608783,
+      "source_id": "f01e2b15-5b36-4850-8880-dc9c75f4fda3",
+      "name": "China Inn Restaurant",
+      "cuisine": "Asian Fusion",
+      "area": "Virginia Tech area",
+      "description": "Asian Fusion listed within 10 miles of Virginia Tech.",
+      "website": "https://chinainndelivery.com/",
+      "website_label": "Listing website",
+      "initials": "CI",
+      "tags": [
+        "Asian Fusion"
+      ],
+      "address": "403 Draper Rd SW",
+      "lat": 37.22663116455078,
+      "lng": -80.41217803955078,
+      "distance_miles": 0.6
+    },
+    {
+      "id": 3251973382830,
+      "source_id": "90d1d568-2758-4f37-ad3a-0d547566e0dd",
+      "name": "Chipotle Mexican Grill",
+      "cuisine": "Mexican",
+      "area": "Virginia Tech area",
+      "description": "Mexican listed within 10 miles of Virginia Tech.",
+      "website": "https://locations.chipotle.com/va/blacksburg/868-prices-fork-rd?utm_source=facebook&utm_medium=yext&utm_campaign=yext_listings%3Frestaurant%3D2971",
+      "website_label": "Listing website",
+      "initials": "CM",
+      "tags": [
+        "Mexican"
+      ],
+      "address": "868 Prices Fork Rd",
+      "lat": 37.231849670410156,
+      "lng": -80.43138885498047,
+      "distance_miles": 0.6
+    },
+    {
+      "id": 6883218791346,
+      "source_id": "3ce72e30-a5ac-476c-81fd-6bf775cb9c9d",
+      "name": "Delicias Potosinas",
+      "cuisine": "Restaurant",
+      "area": "Virginia Tech area",
+      "description": "Restaurant listed within 10 miles of Virginia Tech.",
+      "website": "",
+      "website_label": "Listing website",
+      "initials": "DP",
+      "tags": [
+        "Restaurant"
+      ],
+      "address": "800 N Main St",
+      "lat": 37.236419677734375,
+      "lng": -80.42070007324219,
+      "distance_miles": 0.6
+    },
+    {
+      "id": 6813775108212,
+      "source_id": "8389bce7-841a-42b6-b3cb-212a1fa6aaff",
+      "name": "Not Your Mama's Pasta",
+      "cuisine": "Italian",
+      "area": "Virginia Tech area",
+      "description": "Italian listed within 10 miles of Virginia Tech.",
+      "website": "http://www.notyourmamaspasta.com/",
+      "website_label": "Listing website",
+      "initials": "NY",
+      "tags": [
+        "Italian"
+      ],
+      "address": "301 S Main St",
+      "lat": 37.2275505065918,
+      "lng": -80.41190338134766,
+      "distance_miles": 0.6
+    },
+    {
+      "id": 8435056952389,
+      "source_id": "d9ecc477-305a-4afa-9196-9dfe1423c01d",
+      "name": "Orzo Roll N Bowl",
+      "cuisine": "Asian Fusion",
+      "area": "Virginia Tech area",
+      "description": "Asian Fusion listed within 10 miles of Virginia Tech.",
+      "website": "https://www.orzorollnbowl.com/?utm_source=bing&utm_medium=websiteurl&utm_campaign=search",
+      "website_label": "Listing website",
+      "initials": "OR",
+      "tags": [
+        "Asian Fusion"
+      ],
+      "address": "301 S Main St Ste 106",
+      "lat": 37.22794723510742,
+      "lng": -80.41214752197266,
+      "distance_miles": 0.6
+    },
+    {
+      "id": 4193609862101,
+      "source_id": "2a35f0ba-3b6b-416c-b930-1f2fe482a0d0",
+      "name": "Panda Express",
+      "cuisine": "Chinese",
+      "area": "Virginia Tech area",
+      "description": "Chinese listed within 10 miles of Virginia Tech.",
+      "website": "http://www.pandaexpress.com/",
+      "website_label": "Listing website",
+      "initials": "PE",
+      "tags": [
+        "Chinese"
+      ],
+      "address": "900 Prices Fork Rd.",
+      "lat": 37.231910705566406,
+      "lng": -80.43193054199219,
+      "distance_miles": 0.6
+    },
+    {
+      "id": 15859708815714,
+      "source_id": "caf41af7-0f34-4dbd-8139-3fd3d626ee85",
+      "name": "Roots Natural Kitchen",
+      "cuisine": "Salad Bar",
+      "area": "Virginia Tech area",
+      "description": "Salad Bar listed within 10 miles of Virginia Tech.",
+      "website": "http://rootsnaturalkitchen.com/",
+      "website_label": "Listing website",
+      "initials": "RN",
+      "tags": [
+        "Salad Bar"
+      ],
+      "address": "898 Prices Fork Rd",
+      "lat": 37.231876373291016,
+      "lng": -80.43180084228516,
+      "distance_miles": 0.6
+    },
+    {
+      "id": 15655666210146,
+      "source_id": "6a506a1a-41db-4a96-9d2a-b268cb19953d",
+      "name": "Kuma Moon",
+      "cuisine": "Japanese",
+      "area": "Virginia Tech area",
+      "description": "Japanese listed within 10 miles of Virginia Tech.",
+      "website": "http://www.kumamoonva.com/",
+      "website_label": "Listing website",
+      "initials": "KM",
+      "tags": [
+        "Japanese"
+      ],
+      "address": "725 University City Blvd",
+      "lat": 37.2327766418457,
+      "lng": -80.43351745605469,
+      "distance_miles": 0.7
+    },
+    {
+      "id": 7846357067259,
+      "source_id": "4010c564-d10a-43c5-ad5d-99614ee6452f",
+      "name": "Marco And Luca",
+      "cuisine": "Dumpling",
+      "area": "Virginia Tech area",
+      "description": "Dumpling listed within 10 miles of Virginia Tech.",
+      "website": "https://www.marcoblacksburg.com",
+      "website_label": "Listing website",
+      "initials": "MA",
+      "tags": [
+        "Dumpling"
+      ],
+      "address": "725 University City Blvd",
+      "lat": 37.232696533203125,
+      "lng": -80.43351745605469,
+      "distance_miles": 0.7
+    },
+    {
+      "id": 15192373228677,
+      "source_id": "07a3a505-ffa7-48ef-a05a-b3084590b294",
+      "name": "mezeh",
+      "cuisine": "Mediterranean",
+      "area": "Virginia Tech area",
+      "description": "Mediterranean listed within 10 miles of Virginia Tech.",
+      "website": "https://mezeh.com",
+      "website_label": "Listing website",
+      "initials": "M",
+      "tags": [
+        "Mediterranean"
+      ],
+      "address": "616 University City Blvd",
+      "lat": 37.23261642456055,
+      "lng": -80.43250274658203,
+      "distance_miles": 0.7
+    },
+    {
+      "id": 10337740335731,
+      "source_id": "5f6ec1b8-73b2-4163-b06a-aa77991320cb",
+      "name": "Papa Johns",
+      "cuisine": "Pizza",
+      "area": "Virginia Tech area",
+      "description": "Pizza listed within 10 miles of Virginia Tech.",
+      "website": "http://www.PapaJohns.com/",
+      "website_label": "Listing website",
+      "initials": "PJ",
+      "tags": [
+        "Pizza"
+      ],
+      "address": "610 n main street",
+      "lat": 37.23697280883789,
+      "lng": -80.42082214355469,
+      "distance_miles": 0.7
+    },
+    {
+      "id": 10089339431897,
+      "source_id": "699811f7-2a7e-49f3-9db4-0933092d7673",
+      "name": "Pizza Inn",
+      "cuisine": "Pizza",
+      "area": "Virginia Tech area",
+      "description": "Pizza listed within 10 miles of Virginia Tech.",
+      "website": "https://www.raverg.com",
+      "website_label": "Listing website",
+      "initials": "PI",
+      "tags": [
+        "Pizza"
+      ],
+      "address": "890 Kabrich St",
+      "lat": 37.237220764160156,
+      "lng": -80.42198181152344,
+      "distance_miles": 0.7
+    },
+    {
+      "id": 3010042934385,
+      "source_id": "282c2b57-f4a3-487e-9d5e-18f0e3f1fec5",
+      "name": "Sicily Italian & Mediterranean Grill",
+      "cuisine": "Italian",
+      "area": "Virginia Tech area",
+      "description": "Italian listed within 10 miles of Virginia Tech.",
+      "website": "",
+      "website_label": "Listing website",
+      "initials": "SI",
+      "tags": [
+        "Italian"
+      ],
+      "address": "904 Prices Fork Rd",
+      "lat": 37.23199462890625,
+      "lng": -80.43390655517578,
+      "distance_miles": 0.7
+    },
+    {
+      "id": 4908567335499,
+      "source_id": "ab285288-7e8c-47b9-835f-c9f7d145f2a7",
+      "name": "The Gobbler Italian Restaurant",
+      "cuisine": "Restaurant",
+      "area": "Virginia Tech area",
+      "description": "Restaurant listed within 10 miles of Virginia Tech.",
+      "website": "http://thegobbler.net/",
+      "website_label": "Listing website",
+      "initials": "TG",
+      "tags": [
+        "Restaurant"
+      ],
+      "address": "890 Kabrich St",
+      "lat": 37.23716354370117,
+      "lng": -80.42201232910156,
+      "distance_miles": 0.7
+    },
+    {
+      "id": 4365606076564,
+      "source_id": "a2d2d55d-10e4-4dc9-bce6-8a54ceaea056",
+      "name": "Your Pie Pizza",
+      "cuisine": "Pizza",
+      "area": "Virginia Tech area",
+      "description": "Pizza listed within 10 miles of Virginia Tech.",
+      "website": "https://www.yourpie.com/locations/va/blacksburg/608-university-city-blvd",
+      "website_label": "Listing website",
+      "initials": "YP",
+      "tags": [
+        "Pizza"
+      ],
+      "address": "608 University City Blvd",
+      "lat": 37.23250961303711,
+      "lng": -80.43240356445312,
+      "distance_miles": 0.7
+    },
+    {
+      "id": 2032716338261,
+      "source_id": "6f628777-fb69-40a0-8357-4677d5fc6686",
+      "name": "Abby's Restaurant",
+      "cuisine": "American",
+      "area": "Virginia Tech area",
+      "description": "American listed within 10 miles of Virginia Tech.",
+      "website": "http://www.abbysrestaurant.com/",
+      "website_label": "Listing website",
+      "initials": "AR",
+      "tags": [
+        "American"
+      ],
+      "address": "1001 N Main St",
+      "lat": 37.23885726928711,
+      "lng": -80.42030334472656,
+      "distance_miles": 0.8
+    },
+    {
+      "id": 4074523740173,
+      "source_id": "eccfbf4c-9833-4188-bb44-e5b6295d32f3",
+      "name": "Deli Mart",
+      "cuisine": "Restaurant",
+      "area": "Virginia Tech area",
+      "description": "Restaurant listed within 10 miles of Virginia Tech.",
+      "website": "http://gas-stations.citgo.com/va/blacksburg/24060/920-N-MAIN-ST",
+      "website_label": "Listing website",
+      "initials": "DM",
+      "tags": [
+        "Restaurant"
+      ],
+      "address": "920 N Main St",
+      "lat": 37.23822021484375,
+      "lng": -80.41995239257812,
+      "distance_miles": 0.8
+    },
+    {
+      "id": 4940671555665,
+      "source_id": "e2c8437c-87ee-4908-80c2-c5e837a01b2e",
+      "name": "Domino's",
+      "cuisine": "Pizza",
+      "area": "Virginia Tech area",
+      "description": "Pizza listed within 10 miles of Virginia Tech.",
+      "website": "https://www.dominos.com/en/?utm_source=google&utm_medium=loclist&utm_campaign=localmaps_menutest",
+      "website_label": "Listing website",
+      "initials": "D",
+      "tags": [
+        "Pizza"
+      ],
+      "address": "905 N Main St",
+      "lat": 37.23841094970703,
+      "lng": -80.42073059082031,
+      "distance_miles": 0.8
+    },
+    {
+      "id": 12206489836652,
+      "source_id": "4de788d5-5293-470f-a20e-2fdad2c99c88",
+      "name": "Gaucho Brazilian Grille",
+      "cuisine": "Steakhouse",
+      "area": "Virginia Tech area",
+      "description": "Steakhouse listed within 10 miles of Virginia Tech.",
+      "website": "http://www.gauchogrille.com/",
+      "website_label": "Listing website",
+      "initials": "GB",
+      "tags": [
+        "Steakhouse"
+      ],
+      "address": "880 University City Blvd Ste 201",
+      "lat": 37.23549270629883,
+      "lng": -80.43319702148438,
+      "distance_miles": 0.8
+    },
+    {
+      "id": 10960001541511,
+      "source_id": "de7f83bd-3632-4c20-906e-4de2f6949b9f",
+      "name": "Himalayan Curry Cafe",
+      "cuisine": "Indian",
+      "area": "Virginia Tech area",
+      "description": "Indian listed within 10 miles of Virginia Tech.",
+      "website": "http://www.cityseekr.com/blacksburg/restaurants/poi-himalayan-curry-cafe-940228.html",
+      "website_label": "Listing website",
+      "initials": "HC",
+      "tags": [
+        "Indian"
+      ],
+      "address": "781 University City Blvd",
+      "lat": 37.233768463134766,
+      "lng": -80.4339828491211,
+      "distance_miles": 0.8
+    },
+    {
+      "id": 14526500915486,
+      "source_id": "c8b42c30-a5b4-4442-8b60-75744dc285ba",
+      "name": "Hunan King",
+      "cuisine": "Chinese",
+      "area": "Virginia Tech area",
+      "description": "Chinese listed within 10 miles of Virginia Tech.",
+      "website": "http://www.campusfood.com/",
+      "website_label": "Listing website",
+      "initials": "HK",
+      "tags": [
+        "Chinese"
+      ],
+      "address": "801 University City Blvd",
+      "lat": 37.233734130859375,
+      "lng": -80.43386840820312,
+      "distance_miles": 0.8
+    },
+    {
+      "id": 10725219463688,
+      "source_id": "5027ef81-2427-4ace-8dbc-d0e5c08a1bd9",
+      "name": "Hwy 55 Burgers Shakes & Fries",
+      "cuisine": "American",
+      "area": "Virginia Tech area",
+      "description": "American listed within 10 miles of Virginia Tech.",
+      "website": "http://www.hwy55.com",
+      "website_label": "Listing website",
+      "initials": "H5",
+      "tags": [
+        "American"
+      ],
+      "address": "775 University City Blvd",
+      "lat": 37.2336311340332,
+      "lng": -80.43379211425781,
+      "distance_miles": 0.8
+    },
+    {
+      "id": 2274342290561,
+      "source_id": "6b3465fe-d32b-4e46-8cdb-2e20b5064273",
+      "name": "Kobe Japanese Express",
+      "cuisine": "Japanese",
+      "area": "Virginia Tech area",
+      "description": "Japanese listed within 10 miles of Virginia Tech.",
+      "website": "http://www.kobeblacksburg.com",
+      "website_label": "Listing website",
+      "initials": "KJ",
+      "tags": [
+        "Japanese"
+      ],
+      "address": "860 University City Blvd Ste 106",
+      "lat": 37.235374450683594,
+      "lng": -80.43292236328125,
+      "distance_miles": 0.8
+    },
+    {
+      "id": 7623997707925,
+      "source_id": "c2f6ee10-2390-4564-915b-48d5c63c41df",
+      "name": "Log Cabin BBQ",
+      "cuisine": "Barbecue",
+      "area": "Virginia Tech area",
+      "description": "Barbecue listed within 10 miles of Virginia Tech.",
+      "website": "http://www.mylogcabinbbq.com",
+      "website_label": "Listing website",
+      "initials": "LC",
+      "tags": [
+        "Barbecue"
+      ],
+      "address": "781 University City Blvd",
+      "lat": 37.23377990722656,
+      "lng": -80.43367004394531,
+      "distance_miles": 0.8
+    },
+    {
+      "id": 12911606328360,
+      "source_id": "a6858257-0c60-4569-9851-aa12d082080d",
+      "name": "Sushi Factory and Bubble Tea",
+      "cuisine": "Sushi",
+      "area": "Virginia Tech area",
+      "description": "Sushi listed within 10 miles of Virginia Tech.",
+      "website": "http://sushifactoryandtea.com/index.html",
+      "website_label": "Listing website",
+      "initials": "SF",
+      "tags": [
+        "Sushi"
+      ],
+      "address": "801 University City Blvd",
+      "lat": 37.23392868041992,
+      "lng": -80.43443298339844,
+      "distance_miles": 0.8
+    },
+    {
+      "id": 466753121086,
+      "source_id": "25bca419-4605-42b8-ba3a-e0e54930d9d6",
+      "name": "The Beast of Blacksburg Pizzeria and Bar",
+      "cuisine": "Pizza",
+      "area": "Virginia Tech area",
+      "description": "Pizza listed within 10 miles of Virginia Tech.",
+      "website": "http://www.thebeastofblacksburg.com/",
+      "website_label": "Listing website",
+      "initials": "TB",
+      "tags": [
+        "Pizza"
+      ],
+      "address": "860 University City Blvd",
+      "lat": 37.23539352416992,
+      "lng": -80.43284606933594,
+      "distance_miles": 0.8
+    },
+    {
+      "id": 15357292745811,
+      "source_id": "7ee7d241-3e26-43c7-9df9-9fbe8d6d468d",
+      "name": "Macado's",
+      "cuisine": "American",
+      "area": "Virginia Tech area",
+      "description": "American listed within 10 miles of Virginia Tech.",
+      "website": "https://www.macados.net/?utm_source=Facebook&utm_medium=Yext",
+      "website_label": "Listing website",
+      "initials": "M",
+      "tags": [
+        "American"
+      ],
+      "address": "922 University City Blvd",
+      "lat": 37.2364616394043,
+      "lng": -80.43406677246094,
+      "distance_miles": 0.9
+    },
+    {
+      "id": 1526050880589,
+      "source_id": "aa568144-cfcc-488d-9e60-a8d6ac7e7210",
+      "name": "Pizza Hut Express",
+      "cuisine": "Pizza",
+      "area": "Virginia Tech area",
+      "description": "Pizza listed within 10 miles of Virginia Tech.",
+      "website": "https://locations.pizzahut.com/va/blacksburg/owens-dining-hall?utm_medium=organic&utm_source=local&utm_campaign=yextpowerlistings&utm_content=website&utm_term=291554",
+      "website_label": "Listing website",
+      "initials": "PH",
+      "tags": [
+        "Pizza"
+      ],
+      "address": "Owens Dining Hall Virginia Polytechnic Institute &",
+      "lat": 37.21537780761719,
+      "lng": -80.42939758300781,
+      "distance_miles": 0.9
+    },
+    {
+      "id": 625850994280,
+      "source_id": "4a4c9d9f-6413-4105-9d3c-4488171b2480",
+      "name": "Baan Thai Blacksburg",
+      "cuisine": "Thai",
+      "area": "Virginia Tech area",
+      "description": "Thai listed within 10 miles of Virginia Tech.",
+      "website": "https://www.toasttab.com/local/order/baan-thai-blacksburg-nro-1202-south-main-street",
+      "website_label": "Listing website",
+      "initials": "BT",
+      "tags": [
+        "Thai"
+      ],
+      "address": "1202 S Main St",
+      "lat": 37.2187614440918,
+      "lng": -80.40281677246094,
+      "distance_miles": 1.2
+    },
+    {
+      "id": 17307811515147,
+      "source_id": "126701a9-81ff-4167-80c6-c6f215a63758",
+      "name": "Lin Yue Chuan",
+      "cuisine": "Chinese",
+      "area": "Virginia Tech area",
+      "description": "Chinese listed within 10 miles of Virginia Tech.",
+      "website": "",
+      "website_label": "Listing website",
+      "initials": "LY",
+      "tags": [
+        "Chinese"
+      ],
+      "address": "1202 S Main St",
+      "lat": 37.21875762939453,
+      "lng": -80.4029541015625,
+      "distance_miles": 1.2
+    },
+    {
+      "id": 7725020554773,
+      "source_id": "bed02c98-18e4-4991-a30c-1eefbd68bb5d",
+      "name": "Little Caesars Pizza",
+      "cuisine": "Pizza",
+      "area": "Virginia Tech area",
+      "description": "Pizza listed within 10 miles of Virginia Tech.",
+      "website": "http://www.littlecaesars.com",
+      "website_label": "Listing website",
+      "initials": "LC",
+      "tags": [
+        "Pizza"
+      ],
+      "address": "1200 S Main St",
+      "lat": 37.21900177001953,
+      "lng": -80.40325927734375,
+      "distance_miles": 1.2
+    },
+    {
+      "id": 1338342575396,
+      "source_id": "16fa5493-8284-4f18-9f35-1feea24ff712",
+      "name": "Ninja Cafe",
+      "cuisine": "Japanese",
+      "area": "Virginia Tech area",
+      "description": "Japanese listed within 10 miles of Virginia Tech.",
+      "website": "https://www.ninjacafeblacksburg.com",
+      "website_label": "Listing website",
+      "initials": "NC",
+      "tags": [
+        "Japanese"
+      ],
+      "address": "1200 S Main St",
+      "lat": 37.21907424926758,
+      "lng": -80.40318298339844,
+      "distance_miles": 1.2
+    },
+    {
+      "id": 1202366960815,
+      "source_id": "7303c767-3958-4f73-804d-1c7bb1262a4d",
+      "name": "Avellinos",
+      "cuisine": "Italian",
+      "area": "Virginia Tech area",
+      "description": "Italian listed within 10 miles of Virginia Tech.",
+      "website": "http://www.AvellinosRestaurant.com/",
+      "website_label": "Listing website",
+      "initials": "A",
+      "tags": [
+        "Italian"
+      ],
+      "address": "1440 S Main St",
+      "lat": 37.21406936645508,
+      "lng": -80.40193939208984,
+      "distance_miles": 1.4
+    },
+    {
+      "id": 3468497796748,
+      "source_id": "b0d91f0f-03ee-4f48-8bf3-ba33d1c67d52",
+      "name": "Chinese Kitchen",
+      "cuisine": "Chinese",
+      "area": "Virginia Tech area",
+      "description": "Chinese listed within 10 miles of Virginia Tech.",
+      "website": "https://www.chinesekitchenblacksburg.com/",
+      "website_label": "Listing website",
+      "initials": "CK",
+      "tags": [
+        "Chinese"
+      ],
+      "address": "1409 N Main St",
+      "lat": 37.247528076171875,
+      "lng": -80.41516876220703,
+      "distance_miles": 1.4
+    },
+    {
+      "id": 17324735791514,
+      "source_id": "c0bcad19-784c-4595-b040-de53e99d731c",
+      "name": "Double Dragon",
+      "cuisine": "Chinese",
+      "area": "Virginia Tech area",
+      "description": "Chinese listed within 10 miles of Virginia Tech.",
+      "website": "http://doubledragonerlanger.com",
+      "website_label": "Listing website",
+      "initials": "DD",
+      "tags": [
+        "Chinese"
+      ],
+      "address": "1305 S Main St",
+      "lat": 37.21718215942383,
+      "lng": -80.40023040771484,
+      "distance_miles": 1.4
+    },
+    {
+      "id": 3331985389893,
+      "source_id": "c785f741-d18e-457f-ab21-724ee3215921",
+      "name": "Eggs Up Grill",
+      "cuisine": "Restaurant",
+      "area": "Virginia Tech area",
+      "description": "Restaurant listed within 10 miles of Virginia Tech.",
+      "website": "https://locations.eggsupgrill.com/va/blacksburg/68/",
+      "website_label": "Listing website",
+      "initials": "EU",
+      "tags": [
+        "Restaurant"
+      ],
+      "address": "1342-1 South Main St",
+      "lat": 37.215797424316406,
+      "lng": -80.4019775390625,
+      "distance_miles": 1.4
+    },
+    {
+      "id": 17512098658357,
+      "source_id": "45233b0d-8708-4d5f-a9b6-e47ce58bd08a",
+      "name": "Lefty's Main Street Grille",
+      "cuisine": "Bar And Grill",
+      "area": "Virginia Tech area",
+      "description": "Bar And Grill listed within 10 miles of Virginia Tech.",
+      "website": "http://twitter.com/leftysgrille",
+      "website_label": "Listing website",
+      "initials": "LM",
+      "tags": [
+        "Bar And Grill"
+      ],
+      "address": "1410 S Main St",
+      "lat": 37.215126037597656,
+      "lng": -80.4010009765625,
+      "distance_miles": 1.4
+    },
+    {
+      "id": 3437743982748,
+      "source_id": "9907c2c1-ad7f-4c00-9806-83edf5a98b4b",
+      "name": "Pupuseria Mari",
+      "cuisine": "Salvadoran",
+      "area": "Virginia Tech area",
+      "description": "Salvadoran listed within 10 miles of Virginia Tech.",
+      "website": "",
+      "website_label": "Listing website",
+      "initials": "PM",
+      "tags": [
+        "Salvadoran"
+      ],
+      "address": "1307 S Main St",
+      "lat": 37.217124938964844,
+      "lng": -80.40016174316406,
+      "distance_miles": 1.4
+    },
+    {
+      "id": 4035194879510,
+      "source_id": "cd0d92e7-665c-4776-a33e-f4351296d55b",
+      "name": "Roma Pizza Blacksburg",
+      "cuisine": "Pizza",
+      "area": "Virginia Tech area",
+      "description": "Pizza listed within 10 miles of Virginia Tech.",
+      "website": "https://www.grubhub.com/restaurant/roma-pizza-1407-n-main-st-blacksburg/968797",
+      "website_label": "Listing website",
+      "initials": "RP",
+      "tags": [
+        "Pizza"
+      ],
+      "address": "1407 N Main St",
+      "lat": 37.24745178222656,
+      "lng": -80.41515350341797,
+      "distance_miles": 1.4
+    },
+    {
+      "id": 12159273881527,
+      "source_id": "9a7b8639-d6fd-49a6-9801-bdd68ac66aa0",
+      "name": "Tasty Pasta & Grill",
+      "cuisine": "Italian",
+      "area": "Virginia Tech area",
+      "description": "Italian listed within 10 miles of Virginia Tech.",
+      "website": "https://www.tastypastangrill.com/order",
+      "website_label": "Listing website",
+      "initials": "TP",
+      "tags": [
+        "Italian"
+      ],
+      "address": "1301 S Main St",
+      "lat": 37.21727752685547,
+      "lng": -80.40018463134766,
+      "distance_miles": 1.4
+    },
+    {
+      "id": 1072658806667,
+      "source_id": "3fff196e-8c1f-43ce-81c0-4cf852698508",
+      "name": "Tyga Bites",
+      "cuisine": "Chicken",
+      "area": "Virginia Tech area",
+      "description": "Chicken listed within 10 miles of Virginia Tech.",
+      "website": "https://seasideonthepier.com",
+      "website_label": "Listing website",
+      "initials": "TB",
+      "tags": [
+        "Chicken"
+      ],
+      "address": "1301 S Main St",
+      "lat": 37.217262268066406,
+      "lng": -80.40007019042969,
+      "distance_miles": 1.4
+    },
+    {
+      "id": 5052866670833,
+      "source_id": "254c20e0-fec6-40ad-ab41-e10d1163ad00",
+      "name": "Bull & Bones Brewhaus & Grill",
+      "cuisine": "Barbecue",
+      "area": "Virginia Tech area",
+      "description": "Barbecue listed within 10 miles of Virginia Tech.",
+      "website": "http://www.bullandbones.com/",
+      "website_label": "Listing website",
+      "initials": "B&",
+      "tags": [
+        "Barbecue"
+      ],
+      "address": "1470 S Main St",
+      "lat": 37.213218688964844,
+      "lng": -80.40190124511719,
+      "distance_miles": 1.5
+    },
+    {
+      "id": 15580225385834,
+      "source_id": "2e1a39b8-17c3-4351-8c26-d70d20143b95",
+      "name": "Cafe Mekong",
+      "cuisine": "Vietnamese",
+      "area": "Virginia Tech area",
+      "description": "Vietnamese listed within 10 miles of Virginia Tech.",
+      "website": "http://www.cafe-mekong.com/",
+      "website_label": "Listing website",
+      "initials": "CM",
+      "tags": [
+        "Vietnamese"
+      ],
+      "address": "1405 S Main St",
+      "lat": 37.216102600097656,
+      "lng": -80.39985656738281,
+      "distance_miles": 1.5
+    },
+    {
+      "id": 7910778613031,
+      "source_id": "c85ea26d-0e92-41b6-a0ca-9666aef3628f",
+      "name": "El Rodeo South Main",
+      "cuisine": "Mexican",
+      "area": "Virginia Tech area",
+      "description": "Mexican listed within 10 miles of Virginia Tech.",
+      "website": "http://elrodeoblacksburg.com/",
+      "website_label": "Listing website",
+      "initials": "ER",
+      "tags": [
+        "Mexican"
+      ],
+      "address": "1540 S Main St Ste 100",
+      "lat": 37.21292495727539,
+      "lng": -80.4015121459961,
+      "distance_miles": 1.5
+    },
+    {
+      "id": 12670407171699,
+      "source_id": "992a010c-7a67-46a9-89dd-adbda6b7e97f",
+      "name": "Famous Anthony's",
+      "cuisine": "American",
+      "area": "Virginia Tech area",
+      "description": "American listed within 10 miles of Virginia Tech.",
+      "website": "http://www.famousanthonys.com/",
+      "website_label": "Listing website",
+      "initials": "FA",
+      "tags": [
+        "American"
+      ],
+      "address": "1353 S Main St",
+      "lat": 37.21619415283203,
+      "lng": -80.3996810913086,
+      "distance_miles": 1.5
+    },
+    {
+      "id": 10677018520975,
+      "source_id": "f56bffb4-3581-4ae0-bd1b-7c0a5213be1b",
+      "name": "Lucie Monroe's Mediterranean Cafe",
+      "cuisine": "Egyptian",
+      "area": "Virginia Tech area",
+      "description": "Egyptian listed within 10 miles of Virginia Tech.",
+      "website": "https://www.luciemonroesmediterranean.com/?utm_source=bing&utm_medium=websiteurl&utm_campaign=search",
+      "website_label": "Listing website",
+      "initials": "LM",
+      "tags": [
+        "Egyptian"
+      ],
+      "address": "1301 S Main St",
+      "lat": 37.216026306152344,
+      "lng": -80.39954376220703,
+      "distance_miles": 1.5
+    },
+    {
+      "id": 8962827072231,
+      "source_id": "e40226b7-29fc-4d48-93da-f24300843c1d",
+      "name": "Ocean Samurai",
+      "cuisine": "Japanese",
+      "area": "Virginia Tech area",
+      "description": "Japanese listed within 10 miles of Virginia Tech.",
+      "website": "http://www.oceansam.net/",
+      "website_label": "Listing website",
+      "initials": "OS",
+      "tags": [
+        "Japanese"
+      ],
+      "address": "1560 S Main St",
+      "lat": 37.21266174316406,
+      "lng": -80.4017105102539,
+      "distance_miles": 1.5
+    },
+    {
+      "id": 7129270876988,
+      "source_id": "823b5fb2-9c86-4e17-a54a-da4d0b8eb99c",
+      "name": "Sake House",
+      "cuisine": "Sushi",
+      "area": "Virginia Tech area",
+      "description": "Sushi listed within 10 miles of Virginia Tech.",
+      "website": "http://sakehouserestaurant.com",
+      "website_label": "Listing website",
+      "initials": "SH",
+      "tags": [
+        "Sushi"
+      ],
+      "address": "1560 S Main St",
+      "lat": 37.21281051635742,
+      "lng": -80.401611328125,
+      "distance_miles": 1.5
+    },
+    {
+      "id": 6237942722215,
+      "source_id": "ed3bb441-84f7-4321-8835-5fccdd2dc35c",
+      "name": "The Hatch",
+      "cuisine": "Soul Food",
+      "area": "Virginia Tech area",
+      "description": "Soul Food listed within 10 miles of Virginia Tech.",
+      "website": "",
+      "website_label": "Listing website",
+      "initials": "TH",
+      "tags": [
+        "Soul Food"
+      ],
+      "address": "1500 S Main St",
+      "lat": 37.21332550048828,
+      "lng": -80.40062713623047,
+      "distance_miles": 1.5
+    },
+    {
+      "id": 263954808969,
+      "source_id": "1c41acc1-3cd6-4302-8c35-79256ba352b5",
+      "name": "McClains at First and Main",
+      "cuisine": "American",
+      "area": "Virginia Tech area",
+      "description": "American listed within 10 miles of Virginia Tech.",
+      "website": "https://mcclainsblacksburg.com/",
+      "website_label": "Listing website",
+      "initials": "MA",
+      "tags": [
+        "American"
+      ],
+      "address": "1614 S Main St",
+      "lat": 37.21215057373047,
+      "lng": -80.4015121459961,
+      "distance_miles": 1.6
+    },
+    {
+      "id": 13573993606127,
+      "source_id": "7f28f71c-8c72-4b4c-b962-f754d1abc507",
+      "name": "Wikiteria Cafe",
+      "cuisine": "Cafe",
+      "area": "Virginia Tech area",
+      "description": "Cafe listed within 10 miles of Virginia Tech.",
+      "website": "http://wikiteriacafe.com/",
+      "website_label": "Listing website",
+      "initials": "WC",
+      "tags": [
+        "Cafe"
+      ],
+      "address": "1715 Pratt Dr",
+      "lat": 37.204769134521484,
+      "lng": -80.41205596923828,
+      "distance_miles": 1.7
+    },
+    {
+      "id": 12366264750163,
+      "source_id": "b63a86aa-9611-4ad9-8b6e-5c567530d7fb",
+      "name": "The Huckleberry Cafe",
+      "cuisine": "Breakfast And Brunch",
+      "area": "Virginia Tech area",
+      "description": "Breakfast And Brunch listed within 10 miles of Virginia Tech.",
+      "website": "https://retire.org/index.php/lifestyle/the-village-center/cafe",
+      "website_label": "Listing website",
+      "initials": "TH",
+      "tags": [
+        "Breakfast And Brunch"
+      ],
+      "address": "2387 Warm Hearth Dr",
+      "lat": 37.197269439697266,
+      "lng": -80.41962432861328,
+      "distance_miles": 2.1
+    },
+    {
+      "id": 3930892412702,
+      "source_id": "e94e5be9-5cbb-45ac-b8e8-b3ad84162ba8",
+      "name": "Tabula Rasa on Glade",
+      "cuisine": "American",
+      "area": "Virginia Tech area",
+      "description": "American listed within 10 miles of Virginia Tech.",
+      "website": "http://www.tabularasaonglade.com",
+      "website_label": "Listing website",
+      "initials": "TR",
+      "tags": [
+        "American"
+      ],
+      "address": "2351 Glade Rd",
+      "lat": 37.237552642822266,
+      "lng": -80.46186828613281,
+      "distance_miles": 2.3
+    },
+    {
+      "id": 12231063498321,
+      "source_id": "2453248e-1e01-4d8e-b2d0-5cbc434eecf4",
+      "name": "The Heritage House",
+      "cuisine": "Restaurant",
+      "area": "Virginia Tech area",
+      "description": "Restaurant listed within 10 miles of Virginia Tech.",
+      "website": "",
+      "website_label": "Listing website",
+      "initials": "TH",
+      "tags": [
+        "Restaurant"
+      ],
+      "address": "772 Davis St",
+      "lat": 37.18644332885742,
+      "lng": -80.4116439819336,
+      "distance_miles": 2.9
+    },
+    {
+      "id": 999988520801,
+      "source_id": "8d6c727f-c5bd-4d74-8c5b-da09bbcdfe1a",
+      "name": "El Mariachi",
+      "cuisine": "Mexican",
+      "area": "Virginia Tech area",
+      "description": "Mexican listed within 10 miles of Virginia Tech.",
+      "website": "",
+      "website_label": "Listing website",
+      "initials": "EM",
+      "tags": [
+        "Mexican"
+      ],
+      "address": "3703 S Main St",
+      "lat": 37.1854248046875,
+      "lng": -80.40777587890625,
+      "distance_miles": 3
+    },
+    {
+      "id": 461390891574,
+      "source_id": "4942fdff-8532-4e78-aaa1-1a005a302560",
+      "name": "Taqueria La Family",
+      "cuisine": "Mexican",
+      "area": "Virginia Tech area",
+      "description": "Mexican listed within 10 miles of Virginia Tech.",
+      "website": "",
+      "website_label": "Listing website",
+      "initials": "TL",
+      "tags": [
+        "Mexican"
+      ],
+      "address": "3940 S Main St",
+      "lat": 37.17875671386719,
+      "lng": -80.41541290283203,
+      "distance_miles": 3.4
+    },
+    {
+      "id": 14447717747725,
+      "source_id": "ac5a498d-4d55-4a9f-92e4-8ac2f2e655eb",
+      "name": "Milano's Italian Restaurant",
+      "cuisine": "Italian",
+      "area": "Virginia Tech area",
+      "description": "Italian listed within 10 miles of Virginia Tech.",
+      "website": "http://milanositalianrestaurantnrv.com/",
+      "website_label": "Listing website",
+      "initials": "MI",
+      "tags": [
+        "Italian"
+      ],
+      "address": "50 Merrimac Rd",
+      "lat": 37.17625045776367,
+      "lng": -80.41861724853516,
+      "distance_miles": 3.5
+    },
+    {
+      "id": 14676107823101,
+      "source_id": "fa75fbc6-033b-4cda-8b12-a7c3030d5cfb",
+      "name": "Northstar Cafe",
+      "cuisine": "Cafe",
+      "area": "Virginia Tech area",
+      "description": "Cafe listed within 10 miles of Virginia Tech.",
+      "website": "",
+      "website_label": "Listing website",
+      "initials": "NC",
+      "tags": [
+        "Cafe"
+      ],
+      "address": "3929 Prices Fork Rd",
+      "lat": 37.20881652832031,
+      "lng": -80.4817123413086,
+      "distance_miles": 3.5
+    },
+    {
+      "id": 2705247527343,
+      "source_id": "b96ede0e-7a54-4a98-a557-8884d4c74456",
+      "name": "Camarena's Mexican Store",
+      "cuisine": "Mexican",
+      "area": "Virginia Tech area",
+      "description": "Mexican listed within 10 miles of Virginia Tech.",
+      "website": "",
+      "website_label": "Listing website",
+      "initials": "CM",
+      "tags": [
+        "Mexican"
+      ],
+      "address": "3115 N Franklin St",
+      "lat": 37.17255783081055,
+      "lng": -80.41989135742188,
+      "distance_miles": 3.8
+    },
+    {
+      "id": 11190665466750,
+      "source_id": "b381f9c2-838c-4d9c-8300-5afb6c6c0550",
+      "name": "Pupuseria Mari",
+      "cuisine": "Restaurant",
+      "area": "Virginia Tech area",
+      "description": "Restaurant listed within 10 miles of Virginia Tech.",
+      "website": "",
+      "website_label": "Listing website",
+      "initials": "PM",
+      "tags": [
+        "Restaurant"
+      ],
+      "address": "3135 N Franklin St",
+      "lat": 37.17264175415039,
+      "lng": -80.41983795166016,
+      "distance_miles": 3.8
+    },
+    {
+      "id": 12380820351840,
+      "source_id": "16fbb68b-277e-4adf-813a-122881e9dc11",
+      "name": "Tacos El Tio",
+      "cuisine": "Taco",
+      "area": "Virginia Tech area",
+      "description": "Taco listed within 10 miles of Virginia Tech.",
+      "website": "https://tacos-el-tio-mexican-restaurant.business.site/",
+      "website_label": "Listing website",
+      "initials": "TE",
+      "tags": [
+        "Taco"
+      ],
+      "address": "3015 N Franklin St",
+      "lat": 37.17137908935547,
+      "lng": -80.42044830322266,
+      "distance_miles": 3.9
+    },
+    {
+      "id": 16533465415353,
+      "source_id": "df1c8496-55e6-45c2-8a82-6ca0d54ab3b4",
+      "name": "Kabuki Japanese Steak House",
+      "cuisine": "Japanese",
+      "area": "Virginia Tech area",
+      "description": "Japanese listed within 10 miles of Virginia Tech.",
+      "website": "http://www.eatkabuki.com/",
+      "website_label": "Listing website",
+      "initials": "KJ",
+      "tags": [
+        "Japanese"
+      ],
+      "address": "120 Arbor Dr",
+      "lat": 37.16899108886719,
+      "lng": -80.41890716552734,
+      "distance_miles": 4
+    },
+    {
+      "id": 12871319225537,
+      "source_id": "35bbd0ad-1e68-4798-84b0-ec72df14f0b9",
+      "name": "Texas Steakhouse & Saloon",
+      "cuisine": "American",
+      "area": "Virginia Tech area",
+      "description": "American listed within 10 miles of Virginia Tech.",
+      "website": "http://www.texassteakhouse.com",
+      "website_label": "Listing website",
+      "initials": "TS",
+      "tags": [
+        "American"
+      ],
+      "address": "50 Ponderosa Dr",
+      "lat": 37.17019271850586,
+      "lng": -80.42050170898438,
+      "distance_miles": 4
+    },
+    {
+      "id": 2317221907609,
+      "source_id": "e7f6df4e-0e80-4698-8447-adf9bba7c267",
+      "name": "Sandro's Christiansburg",
+      "cuisine": "Italian",
+      "area": "Virginia Tech area",
+      "description": "Italian listed within 10 miles of Virginia Tech.",
+      "website": "http://www.sandrospizza.com/",
+      "website_label": "Listing website",
+      "initials": "SC",
+      "tags": [
+        "Italian"
+      ],
+      "address": "2775 Market St",
+      "lat": 37.16774368286133,
+      "lng": -80.42070007324219,
+      "distance_miles": 4.1
+    },
+    {
+      "id": 9265349448250,
+      "source_id": "ee4c8c65-138b-47b1-aaa9-73ddb966a0e2",
+      "name": "First Watch",
+      "cuisine": "Breakfast And Brunch",
+      "area": "Virginia Tech area",
+      "description": "Breakfast And Brunch listed within 10 miles of Virginia Tech.",
+      "website": "https://www.firstwatch.com/locations/christiansburg",
+      "website_label": "Listing website",
+      "initials": "FW",
+      "tags": [
+        "Breakfast And Brunch"
+      ],
+      "address": "2730 Market St",
+      "lat": 37.16730880737305,
+      "lng": -80.42147064208984,
+      "distance_miles": 4.2
+    },
+    {
+      "id": 13136680226676,
+      "source_id": "6c13f8e7-6a51-4309-8f7a-706e63117349",
+      "name": "Chicken Salad Chick",
+      "cuisine": "Salad Bar",
+      "area": "Virginia Tech area",
+      "description": "Salad Bar listed within 10 miles of Virginia Tech.",
+      "website": "https://chickensaladchick.com/christiansburg-va",
+      "website_label": "Listing website",
+      "initials": "CS",
+      "tags": [
+        "Salad Bar"
+      ],
+      "address": "2575 Market St",
+      "lat": 37.164634704589844,
+      "lng": -80.42102813720703,
+      "distance_miles": 4.3
+    },
+    {
+      "id": 6729417969170,
+      "source_id": "ffd6656b-71b7-4993-be95-2a841c3fb9e0",
+      "name": "Chipotle Mexican Grill",
+      "cuisine": "Mexican",
+      "area": "Virginia Tech area",
+      "description": "Mexican listed within 10 miles of Virginia Tech.",
+      "website": "https://locations.chipotle.com/va/christiansburg/2545-market-st?utm_source=facebook&utm_medium=yext&utm_campaign=yext_listings",
+      "website_label": "Listing website",
+      "initials": "CM",
+      "tags": [
+        "Mexican"
+      ],
+      "address": "2545 Market St",
+      "lat": 37.16463851928711,
+      "lng": -80.421142578125,
+      "distance_miles": 4.3
+    },
+    {
+      "id": 11222402003077,
+      "source_id": "fb35b38a-0afc-4083-aad4-48f7f675ad5e",
+      "name": "Cinnabon",
+      "cuisine": "Restaurant",
+      "area": "Virginia Tech area",
+      "description": "Restaurant listed within 10 miles of Virginia Tech.",
+      "website": "https://www.cinnabon.com/",
+      "website_label": "Listing website",
+      "initials": "C",
+      "tags": [
+        "Restaurant"
+      ],
+      "address": "782 New River Rd",
+      "lat": 37.16521453857422,
+      "lng": -80.42652130126953,
+      "distance_miles": 4.3
+    },
+    {
+      "id": 3517536718695,
+      "source_id": "40c82a45-8a6c-498c-9e98-e4c948b98213",
+      "name": "Golden Corral Buffet and Grill",
+      "cuisine": "Buffet",
+      "area": "Virginia Tech area",
+      "description": "Buffet listed within 10 miles of Virginia Tech.",
+      "website": "https://www.goldencorral.com/locations/2663/golden-corral-n-franklin-street",
+      "website_label": "Listing website",
+      "initials": "GC",
+      "tags": [
+        "Buffet"
+      ],
+      "address": "2580 N Franklin St",
+      "lat": 37.165096282958984,
+      "lng": -80.42345428466797,
+      "distance_miles": 4.3
+    },
+    {
+      "id": 9423557469246,
+      "source_id": "3acd7913-b2f2-4ab6-87c0-d08a0c88a9bb",
+      "name": "Olive Garden Italian Restaurant",
+      "cuisine": "Italian",
+      "area": "Virginia Tech area",
+      "description": "Italian listed within 10 miles of Virginia Tech.",
+      "website": "https://www.olivegarden.com/locations/va/christiansburg/christiansburg-new-river-mall/1746?cmpid=br%3Aog_ag%3Aie_ch%3Asoc_ca%3AOGFB_sn%3Afacebook_gt%3Achristiansburg-va-1746_pl%3Alocurl_rd%3A1594",
+      "website_label": "Listing website",
+      "initials": "OG",
+      "tags": [
+        "Italian"
+      ],
+      "address": "2590 N Franklin St",
+      "lat": 37.16588592529297,
+      "lng": -80.42369079589844,
+      "distance_miles": 4.3
+    },
+    {
+      "id": 7092674255715,
+      "source_id": "f39e426a-98d5-4002-9074-00d82adb9c91",
+      "name": "Outback Steakhouse",
+      "cuisine": "Steakhouse",
+      "area": "Virginia Tech area",
+      "description": "Steakhouse listed within 10 miles of Virginia Tech.",
+      "website": "https://locations.outback.com/virginia/christiansburg/295-pepper's-ferry-road-ne?utm_source=gmb&utm_medium=local_search&utm_campaign=website_cta&y_source=1_MTU1MDIxODAtNTU5LWxvY2F0aW9uLndlYnNpdGU%3D",
+      "website_label": "Listing website",
+      "initials": "OS",
+      "tags": [
+        "Steakhouse"
+      ],
+      "address": "295 Peppers Ferry Rd NE",
+      "lat": 37.164798736572266,
+      "lng": -80.41850280761719,
+      "distance_miles": 4.3
+    },
+    {
+      "id": 5778551106682,
+      "source_id": "12c82dda-6b72-4640-a0bd-dcf990cade7e",
+      "name": "Pub Grub",
+      "cuisine": "Restaurant",
+      "area": "Virginia Tech area",
+      "description": "Restaurant listed within 10 miles of Virginia Tech.",
+      "website": "http://www.pubgrubnrv.com",
+      "website_label": "Listing website",
+      "initials": "PG",
+      "tags": [
+        "Restaurant"
+      ],
+      "address": "782 New River Rd",
+      "lat": 37.16512680053711,
+      "lng": -80.42765045166016,
+      "distance_miles": 4.3
+    },
+    {
+      "id": 13511530449696,
+      "source_id": "51610532-725e-49e6-b5b8-8baebf3218bc",
+      "name": "Ryan's",
+      "cuisine": "American",
+      "area": "Virginia Tech area",
+      "description": "American listed within 10 miles of Virginia Tech.",
+      "website": "http://locations.buffet.com/VA/CHRISTIANSBURG/2316/index.html",
+      "website_label": "Listing website",
+      "initials": "R",
+      "tags": [
+        "American"
+      ],
+      "address": "2580 N Franklin St",
+      "lat": 37.16522979736328,
+      "lng": -80.42408752441406,
+      "distance_miles": 4.3
+    },
+    {
+      "id": 4883771780768,
+      "source_id": "511ff9d0-e800-4068-bf74-f29166639be4",
+      "name": "Sbarro",
+      "cuisine": "Pizza",
+      "area": "Virginia Tech area",
+      "description": "Pizza listed within 10 miles of Virginia Tech.",
+      "website": "https://sbarro.com",
+      "website_label": "Listing website",
+      "initials": "S",
+      "tags": [
+        "Pizza"
+      ],
+      "address": "782 New River Rd",
+      "lat": 37.165164947509766,
+      "lng": -80.42798614501953,
+      "distance_miles": 4.3
+    },
+    {
+      "id": 4714090098682,
+      "source_id": "2e5775ac-5954-4977-b894-ebeaeb942810",
+      "name": "The Cut",
+      "cuisine": "Steakhouse",
+      "area": "Virginia Tech area",
+      "description": "Steakhouse listed within 10 miles of Virginia Tech.",
+      "website": "",
+      "website_label": "Listing website",
+      "initials": "TC",
+      "tags": [
+        "Steakhouse"
+      ],
+      "address": "265 Peppers Ferry Rd NW",
+      "lat": 37.165443420410156,
+      "lng": -80.42774963378906,
+      "distance_miles": 4.3
+    },
+    {
+      "id": 15263643476806,
+      "source_id": "e10504b8-18f1-4bdb-b40d-f6945b781bcc",
+      "name": "China Wok",
+      "cuisine": "Chinese",
+      "area": "Virginia Tech area",
+      "description": "Chinese listed within 10 miles of Virginia Tech.",
+      "website": "http://www.chinawokky.com/",
+      "website_label": "Listing website",
+      "initials": "CW",
+      "tags": [
+        "Chinese"
+      ],
+      "address": "782 New River Rd",
+      "lat": 37.16349411010742,
+      "lng": -80.42936706542969,
+      "distance_miles": 4.4
+    },
+    {
+      "id": 10204294405934,
+      "source_id": "d0be03c6-e1d0-441a-8cbe-8c1b7115222b",
+      "name": "Donatos Pizza",
+      "cuisine": "Pizza",
+      "area": "Virginia Tech area",
+      "description": "Pizza listed within 10 miles of Virginia Tech.",
+      "website": "https://www.donatos.com",
+      "website_label": "Listing website",
+      "initials": "DP",
+      "tags": [
+        "Pizza"
+      ],
+      "address": "105 Peppers Fry Rd NW",
+      "lat": 37.16343688964844,
+      "lng": -80.42650604248047,
+      "distance_miles": 4.4
+    },
+    {
+      "id": 14606890301906,
+      "source_id": "8f01edf4-d858-4cc8-a7d9-a7a8ea378f19",
+      "name": "IHOP",
+      "cuisine": "Breakfast And Brunch",
+      "area": "Virginia Tech area",
+      "description": "Breakfast And Brunch listed within 10 miles of Virginia Tech.",
+      "website": "https://restaurants.ihop.com/en-us/va/christiansburg/breakfast-65-peppers-ferry-rd-nw-574",
+      "website_label": "Listing website",
+      "initials": "I",
+      "tags": [
+        "Breakfast And Brunch"
+      ],
+      "address": "65 Peppers Ferry Rd NW",
+      "lat": 37.16450119018555,
+      "lng": -80.42481994628906,
+      "distance_miles": 4.4
+    },
+    {
+      "id": 11359819277163,
+      "source_id": "91d4f325-2826-4a6a-b8a1-e069a0109c99",
+      "name": "Mission BBQ",
+      "cuisine": "Barbecue",
+      "area": "Virginia Tech area",
+      "description": "Barbecue listed within 10 miles of Virginia Tech.",
+      "website": "https://www.mission-bbq.com",
+      "website_label": "Listing website",
+      "initials": "MB",
+      "tags": [
+        "Barbecue"
+      ],
+      "address": "2585 Market St NE",
+      "lat": 37.16451644897461,
+      "lng": -80.42088317871094,
+      "distance_miles": 4.4
+    },
+    {
+      "id": 2800678130189,
+      "source_id": "3810cb33-f26e-41c2-99d5-ed52bd7fec2f",
+      "name": "Noodles & Company",
+      "cuisine": "Ramen",
+      "area": "Virginia Tech area",
+      "description": "Ramen listed within 10 miles of Virginia Tech.",
+      "website": "https://locations.noodles.com/va/christiansburg/2767-market-street-ne?utm_campaign=soci&utm_medium=organic&utm_source=facebook",
+      "website_label": "Listing website",
+      "initials": "N&",
+      "tags": [
+        "Ramen"
+      ],
+      "address": "2531 Market St NE",
+      "lat": 37.16447448730469,
+      "lng": -80.421630859375,
+      "distance_miles": 4.4
+    },
+    {
+      "id": 16337026479184,
+      "source_id": "98e125ad-cd62-4c04-bdab-285e2801ee3d",
+      "name": "Pardon My Cheesesteak",
+      "cuisine": "Restaurant",
+      "area": "Virginia Tech area",
+      "description": "Restaurant listed within 10 miles of Virginia Tech.",
+      "website": "",
+      "website_label": "Listing website",
+      "initials": "PM",
+      "tags": [
+        "Restaurant"
+      ],
+      "address": "65 Peppers Ferry Rd NW",
+      "lat": 37.1644172668457,
+      "lng": -80.42472076416016,
+      "distance_miles": 4.4
+    },
+    {
+      "id": 3556003869409,
+      "source_id": "f39f8b52-9032-420b-a17e-1a9e51fcb96e",
+      "name": "Pizza Hut Express",
+      "cuisine": "Pizza",
+      "area": "Virginia Tech area",
+      "description": "Pizza listed within 10 miles of Virginia Tech.",
+      "website": "",
+      "website_label": "Listing website",
+      "initials": "PH",
+      "tags": [
+        "Pizza"
+      ],
+      "address": "2500 Market St",
+      "lat": 37.16428756713867,
+      "lng": -80.42281341552734,
+      "distance_miles": 4.4
+    },
+    {
+      "id": 9445309442908,
+      "source_id": "23f5805c-5920-41a3-89a2-f2eb0021b914",
+      "name": "Red Lobster",
+      "cuisine": "Seafood",
+      "area": "Virginia Tech area",
+      "description": "Seafood listed within 10 miles of Virginia Tech.",
+      "website": "https://www.redlobster.com/seafood-restaurants/locations/va/christiansburg/75-peppers-fry-rd-nw",
+      "website_label": "Listing website",
+      "initials": "RL",
+      "tags": [
+        "Seafood"
+      ],
+      "address": "75 Peppers Ferry Rd NW",
+      "lat": 37.16389083862305,
+      "lng": -80.42533874511719,
+      "distance_miles": 4.4
+    },
+    {
+      "id": 15201184628043,
+      "source_id": "fb99f9fa-0cb2-4c1a-8e8a-aa8fc4706feb",
+      "name": "Red Robin Gourmet Burgers",
+      "cuisine": "Burger",
+      "area": "Virginia Tech area",
+      "description": "Burger listed within 10 miles of Virginia Tech.",
+      "website": "https://www.redrobin.com/locations/va/christiansburg/christiansburg-580",
+      "website_label": "Listing website",
+      "initials": "RR",
+      "tags": [
+        "Burger"
+      ],
+      "address": "105 Peppers Ferry Rd NW",
+      "lat": 37.16350555419922,
+      "lng": -80.42616271972656,
+      "distance_miles": 4.4
+    },
+    {
+      "id": 3348339759766,
+      "source_id": "1255a6dd-92a3-4aa1-a9a4-752e8fcffca1",
+      "name": "El Gran Rodeo",
+      "cuisine": "Mexican",
+      "area": "Virginia Tech area",
+      "description": "Mexican listed within 10 miles of Virginia Tech.",
+      "website": "https://direct.chownow.com/order/29086/locations/43040?fbclid=PAZXh0bgNhZW0CMTEAAaYAToQIR-dNhZdD_fAL567MTeDvJPWI_AGT6xhxr7mkkxeLnqNMAO1KZaY_aem_hOiAfmEgXn9tllFa-vvltw",
+      "website_label": "Listing website",
+      "initials": "EG",
+      "tags": [
+        "Mexican"
+      ],
+      "address": "200 Laurel St",
+      "lat": 37.16289520263672,
+      "lng": -80.41935729980469,
+      "distance_miles": 4.5
+    },
+    {
+      "id": 17428229556684,
+      "source_id": "6ebb0e83-3b7c-4d0c-9587-6a63096895ba",
+      "name": "O'Charleys Restaurant and Bar",
+      "cuisine": "American",
+      "area": "Virginia Tech area",
+      "description": "American listed within 10 miles of Virginia Tech.",
+      "website": "https://www.ocharleys.com/",
+      "website_label": "Listing website",
+      "initials": "OR",
+      "tags": [
+        "American"
+      ],
+      "address": "150 Laurel St NE",
+      "lat": 37.16221618652344,
+      "lng": -80.41998291015625,
+      "distance_miles": 4.5
+    },
+    {
+      "id": 5090873335143,
+      "source_id": "4a2abb0b-229d-4b4d-a672-392396f18005",
+      "name": "Panda Express",
+      "cuisine": "Chinese",
+      "area": "Virginia Tech area",
+      "description": "Chinese listed within 10 miles of Virginia Tech.",
+      "website": "http://www.pandaexpress.com/",
+      "website_label": "Listing website",
+      "initials": "PE",
+      "tags": [
+        "Chinese"
+      ],
+      "address": "250 Peppers Ferry Rd. Nw",
+      "lat": 37.16294479370117,
+      "lng": -80.42790985107422,
+      "distance_miles": 4.5
+    },
+    {
+      "id": 17495324430349,
+      "source_id": "a5177906-a97d-4d16-8841-c2a783110e7f",
+      "name": "Sakura Steak House",
+      "cuisine": "Japanese",
+      "area": "Virginia Tech area",
+      "description": "Japanese listed within 10 miles of Virginia Tech.",
+      "website": "http://www.sakurasteakhouse.com/",
+      "website_label": "Listing website",
+      "initials": "SS",
+      "tags": [
+        "Japanese"
+      ],
+      "address": "105 Laurel St",
+      "lat": 37.162540435791016,
+      "lng": -80.42134094238281,
+      "distance_miles": 4.5
+    },
+    {
+      "id": 13225745381215,
+      "source_id": "fb504309-9361-4b71-9f26-922ea78fb3c8",
+      "name": "Texas Roadhouse",
+      "cuisine": "Steakhouse",
+      "area": "Virginia Tech area",
+      "description": "Steakhouse listed within 10 miles of Virginia Tech.",
+      "website": "https://www.texasroadhouse.com/locations/virginia/christiansburg?utm_source=facebook&utm_medium=social&utm_content=about",
+      "website_label": "Listing website",
+      "initials": "TR",
+      "tags": [
+        "Steakhouse"
+      ],
+      "address": "100 Bradley Dr NW",
+      "lat": 37.16250228881836,
+      "lng": -80.42643737792969,
+      "distance_miles": 4.5
+    },
+    {
+      "id": 11747631450255,
+      "source_id": "b7e96057-5a54-4eab-aff8-c792b99d62c2",
+      "name": "Blackstone Grill",
+      "cuisine": "Steakhouse",
+      "area": "Virginia Tech area",
+      "description": "Steakhouse listed within 10 miles of Virginia Tech.",
+      "website": "https://blackstonegrillva.com",
+      "website_label": "Listing website",
+      "initials": "BG",
+      "tags": [
+        "Steakhouse"
+      ],
+      "address": "420 Peppers Fry Rd NW",
+      "lat": 37.16181182861328,
+      "lng": -80.4326400756836,
+      "distance_miles": 4.6
+    },
+    {
+      "id": 4585698858340,
+      "source_id": "cadd7661-70eb-4bde-804e-cf566b28261a",
+      "name": "Bull and Bones",
+      "cuisine": "Barbecue",
+      "area": "Virginia Tech area",
+      "description": "Barbecue listed within 10 miles of Virginia Tech.",
+      "website": "http://www.bullandbones.com/",
+      "website_label": "Listing website",
+      "initials": "BA",
+      "tags": [
+        "Barbecue"
+      ],
+      "address": "420 Peppers Ferry Rd NW",
+      "lat": 37.16179656982422,
+      "lng": -80.43197631835938,
+      "distance_miles": 4.6
+    },
+    {
+      "id": 4055006048878,
+      "source_id": "49333adb-9f93-44e1-b166-f9f55e395de7",
+      "name": "Domino's",
+      "cuisine": "Pizza",
+      "area": "Virginia Tech area",
+      "description": "Pizza listed within 10 miles of Virginia Tech.",
+      "website": "https://www.dominos.com/en/?utm_source=google&utm_medium=loclist&utm_campaign=localmaps_menutest",
+      "website_label": "Listing website",
+      "initials": "D",
+      "tags": [
+        "Pizza"
+      ],
+      "address": "426 Peppers Ferry Rd",
+      "lat": 37.16188049316406,
+      "lng": -80.43224334716797,
+      "distance_miles": 4.6
+    },
+    {
+      "id": 16073304778055,
+      "source_id": "4ebec1e1-cab4-4bae-acff-dc34b9a77f19",
+      "name": "Taqueria El Paso",
+      "cuisine": "Mexican",
+      "area": "Virginia Tech area",
+      "description": "Mexican listed within 10 miles of Virginia Tech.",
+      "website": "",
+      "website_label": "Listing website",
+      "initials": "TE",
+      "tags": [
+        "Mexican"
+      ],
+      "address": "510 Peppers Fry Rd NW",
+      "lat": 37.16226577758789,
+      "lng": -80.4339599609375,
+      "distance_miles": 4.6
+    },
+    {
+      "id": 1274877578373,
+      "source_id": "52c17fb3-1bbd-43ff-9d98-347c6f619232",
+      "name": "Farmhouse Restaurant",
+      "cuisine": "Restaurant",
+      "area": "Virginia Tech area",
+      "description": "Restaurant listed within 10 miles of Virginia Tech.",
+      "website": "http://thefarmhouseonline.com",
+      "website_label": "Listing website",
+      "initials": "FR",
+      "tags": [
+        "Restaurant"
+      ],
+      "address": "460 Cambria St NW",
+      "lat": 37.153404235839844,
+      "lng": -80.42384338378906,
+      "distance_miles": 5.1
+    },
+    {
+      "id": 2305682191668,
+      "source_id": "8dcaf734-7c93-4f83-ab8d-e9221e486b31",
+      "name": "The Farmhouse",
+      "cuisine": "Steakhouse",
+      "area": "Virginia Tech area",
+      "description": "Steakhouse listed within 10 miles of Virginia Tech.",
+      "website": "http://www.thefarmhousechristiansburg.com/",
+      "website_label": "Listing website",
+      "initials": "TF",
+      "tags": [
+        "Steakhouse"
+      ],
+      "address": "285 Ridinger St",
+      "lat": 37.153282165527344,
+      "lng": -80.42191314697266,
+      "distance_miles": 5.1
+    },
+    {
+      "id": 14434879522560,
+      "source_id": "b30b7723-1ae5-4518-b04f-e2bbfac32d86",
+      "name": "Buddy’s",
+      "cuisine": "Pizza",
+      "area": "Virginia Tech area",
+      "description": "Pizza listed within 10 miles of Virginia Tech.",
+      "website": "https://www.clover.com/online-ordering/buddys-christiansburg",
+      "website_label": "Listing website",
+      "initials": "B",
+      "tags": [
+        "Pizza"
+      ],
+      "address": "1580 N Franklin St",
+      "lat": 37.150516510009766,
+      "lng": -80.41555786132812,
+      "distance_miles": 5.3
+    },
+    {
+      "id": 7475472641519,
+      "source_id": "da5a30c7-839e-428f-8bd0-bbd54f58336a",
+      "name": "Casa Del Rio",
+      "cuisine": "Mexican",
+      "area": "Virginia Tech area",
+      "description": "Mexican listed within 10 miles of Virginia Tech.",
+      "website": "http://casadelriocburg.com",
+      "website_label": "Listing website",
+      "initials": "CD",
+      "tags": [
+        "Mexican"
+      ],
+      "address": "1635 N Franklin St",
+      "lat": 37.151336669921875,
+      "lng": -80.41252899169922,
+      "distance_miles": 5.3
+    },
+    {
+      "id": 15239333843094,
+      "source_id": "16568002-aa77-425c-9a2e-f9989e2b7af9",
+      "name": "China Garden Restaurant",
+      "cuisine": "Chinese",
+      "area": "Virginia Tech area",
+      "description": "Chinese listed within 10 miles of Virginia Tech.",
+      "website": "http://www.chinagardenva.com",
+      "website_label": "Listing website",
+      "initials": "CG",
+      "tags": [
+        "Chinese"
+      ],
+      "address": "1572 N Franklin St",
+      "lat": 37.15072250366211,
+      "lng": -80.41666412353516,
+      "distance_miles": 5.3
+    },
+    {
+      "id": 15338205349664,
+      "source_id": "7cdba5aa-6212-4efd-a933-5e82d2fa8eca",
+      "name": "Dogg Dash",
+      "cuisine": "Hot Dog",
+      "area": "Virginia Tech area",
+      "description": "Hot Dog listed within 10 miles of Virginia Tech.",
+      "website": "",
+      "website_label": "Listing website",
+      "initials": "DD",
+      "tags": [
+        "Hot Dog"
+      ],
+      "address": "1715 N Franklin St",
+      "lat": 37.15133285522461,
+      "lng": -80.4139404296875,
+      "distance_miles": 5.3
+    },
+    {
+      "id": 5564521946695,
+      "source_id": "01d15c3b-b0d9-439d-8702-faa0011d134e",
+      "name": "Little Caesars Pizza",
+      "cuisine": "Pizza",
+      "area": "Virginia Tech area",
+      "description": "Pizza listed within 10 miles of Virginia Tech.",
+      "website": "https://littlecaesars.com/en-us/store/2259",
+      "website_label": "Listing website",
+      "initials": "LC",
+      "tags": [
+        "Pizza"
+      ],
+      "address": "1576 N Franklin St",
+      "lat": 37.1507453918457,
+      "lng": -80.41667938232422,
+      "distance_miles": 5.3
+    },
+    {
+      "id": 13382655848651,
+      "source_id": "8ed980fb-56ad-4637-9f79-da92a5ae5376",
+      "name": "Lola's International Bar & Grill",
+      "cuisine": "Restaurant",
+      "area": "Virginia Tech area",
+      "description": "Restaurant listed within 10 miles of Virginia Tech.",
+      "website": "http://www.lolasinternationalbar.com",
+      "website_label": "Listing website",
+      "initials": "LI",
+      "tags": [
+        "Restaurant"
+      ],
+      "address": "1635 N Franklin St",
+      "lat": 37.151302337646484,
+      "lng": -80.41252136230469,
+      "distance_miles": 5.3
+    },
+    {
+      "id": 5452865559245,
+      "source_id": "dbeb64bb-b931-404b-ac9e-59b00e9b2b12",
+      "name": "Ocean Samurai Cburg | All-You-Can-Eat Sushi & Hibachi | 海の侍日本料理放题",
+      "cuisine": "Japanese",
+      "area": "Virginia Tech area",
+      "description": "Japanese listed within 10 miles of Virginia Tech.",
+      "website": "http://www.oceansam.net/",
+      "website_label": "Listing website",
+      "initials": "OS",
+      "tags": [
+        "Japanese"
+      ],
+      "address": "1635 N Franklin St",
+      "lat": 37.151145935058594,
+      "lng": -80.41271209716797,
+      "distance_miles": 5.3
+    },
+    {
+      "id": 16119601029711,
+      "source_id": "89eba52e-43c2-4f7e-8f91-13d59e24c5b2",
+      "name": "Amelia's Pizzeria & Restaurant",
+      "cuisine": "Italian",
+      "area": "Virginia Tech area",
+      "description": "Italian listed within 10 miles of Virginia Tech.",
+      "website": "http://www.ameliaspizzeriava.com",
+      "website_label": "Listing website",
+      "initials": "AP",
+      "tags": [
+        "Italian"
+      ],
+      "address": "1130 Cambria St.",
+      "lat": 37.144283294677734,
+      "lng": -80.4048843383789,
+      "distance_miles": 5.8
+    },
+    {
+      "id": 13398959358162,
+      "source_id": "8e38777f-f065-45a7-b909-90f77b08bc88",
+      "name": "Sonic Drive In",
+      "cuisine": "Theme",
+      "area": "Virginia Tech area",
+      "description": "Theme listed within 10 miles of Virginia Tech.",
+      "website": "https://locations.sonicdrivein.com/va/christiansburg/355-north-franklin-street.html",
+      "website_label": "Listing website",
+      "initials": "SD",
+      "tags": [
+        "Theme"
+      ],
+      "address": "355 N Franklin St",
+      "lat": 37.13457489013672,
+      "lng": -80.41284942626953,
+      "distance_miles": 6.4
+    },
+    {
+      "id": 8212983783503,
+      "source_id": "5c300665-2b6d-4397-ba59-90d1b91ae12d",
+      "name": "Hunt Brothers Pizza",
+      "cuisine": "Pizza",
+      "area": "Virginia Tech area",
+      "description": "Pizza listed within 10 miles of Virginia Tech.",
+      "website": "http://www.huntbrotherspizza.com/",
+      "website_label": "Listing website",
+      "initials": "HB",
+      "tags": [
+        "Pizza"
+      ],
+      "address": "3410 Peppers Ferry Rd",
+      "lat": 37.17155075073242,
+      "lng": -80.51622009277344,
+      "distance_miles": 6.5
+    },
+    {
+      "id": 14405335733155,
+      "source_id": "a4fddf6d-356e-433e-8430-67667a5cc670",
+      "name": "Pizza Inn",
+      "cuisine": "Pizza",
+      "area": "Virginia Tech area",
+      "description": "Pizza listed within 10 miles of Virginia Tech.",
+      "website": "https://www.pizzainn.com/locations/christiansburg-va/",
+      "website_label": "Listing website",
+      "initials": "PI",
+      "tags": [
+        "Pizza"
+      ],
+      "address": "190 N Franklin St",
+      "lat": 37.132049560546875,
+      "lng": -80.41236114501953,
+      "distance_miles": 6.6
+    },
+    {
+      "id": 15703000627494,
+      "source_id": "336f955a-59f1-467f-8293-8131e37cdd87",
+      "name": "Mockingbird Cafe & Bakery",
+      "cuisine": "Cafe",
+      "area": "Virginia Tech area",
+      "description": "Cafe listed within 10 miles of Virginia Tech.",
+      "website": "https://www.mockingbirdcafe.biz/",
+      "website_label": "Listing website",
+      "initials": "MC",
+      "tags": [
+        "Cafe"
+      ],
+      "address": "10 Montague St",
+      "lat": 37.131710052490234,
+      "lng": -80.40618133544922,
+      "distance_miles": 6.7
+    },
+    {
+      "id": 13752993721642,
+      "source_id": "70d901e0-4a55-4f1c-8533-04187383a786",
+      "name": "Moto Sushi Cycles",
+      "cuisine": "Restaurant",
+      "area": "Virginia Tech area",
+      "description": "Restaurant listed within 10 miles of Virginia Tech.",
+      "website": "http://motosushicycles.com",
+      "website_label": "Listing website",
+      "initials": "MS",
+      "tags": [
+        "Restaurant"
+      ],
+      "address": "7 Roanoke St",
+      "lat": 37.1306037902832,
+      "lng": -80.40676879882812,
+      "distance_miles": 6.7
+    },
+    {
+      "id": 4257281652338,
+      "source_id": "6bafe47f-8ed9-40b8-bcba-7c29a904ea59",
+      "name": "Summit Restaurant",
+      "cuisine": "American",
+      "area": "Virginia Tech area",
+      "description": "American listed within 10 miles of Virginia Tech.",
+      "website": "http://www.summitrestaurant.us/",
+      "website_label": "Listing website",
+      "initials": "SR",
+      "tags": [
+        "American"
+      ],
+      "address": "95 College St",
+      "lat": 37.1302375793457,
+      "lng": -80.41141510009766,
+      "distance_miles": 6.7
+    },
+    {
+      "id": 4339340250456,
+      "source_id": "e5d5d043-a106-4c7d-a231-38d4692f4b11",
+      "name": "Charlie’s Chinese Restaurant",
+      "cuisine": "Restaurant",
+      "area": "Virginia Tech area",
+      "description": "Restaurant listed within 10 miles of Virginia Tech.",
+      "website": "",
+      "website_label": "Listing website",
+      "initials": "CC",
+      "tags": [
+        "Restaurant"
+      ],
+      "address": "35 W Main St",
+      "lat": 37.129154205322266,
+      "lng": -80.40985107421875,
+      "distance_miles": 6.8
+    },
+    {
+      "id": 6007879926502,
+      "source_id": "771c1e63-013b-4174-a670-b74823ebf51e",
+      "name": "Papa Johns",
+      "cuisine": "Pizza",
+      "area": "Virginia Tech area",
+      "description": "Pizza listed within 10 miles of Virginia Tech.",
+      "website": "https://locations.papajohns.com/united-states/va/24073/christiansburg/7-s-franklin-st?utm_source=facebook-store-pages&utm_medium=referral&y_source=1_MTA2OTIwNTUtNTU5LWxvY2F0aW9uLndlYnNpdGU%3D",
+      "website_label": "Listing website",
+      "initials": "PJ",
+      "tags": [
+        "Pizza"
+      ],
+      "address": "7 s franklin st",
+      "lat": 37.129207611083984,
+      "lng": -80.40814971923828,
+      "distance_miles": 6.8
+    },
+    {
+      "id": 7734802176505,
+      "source_id": "ca7045e0-139f-4631-bf06-3f56571c580b",
+      "name": "Burger King",
+      "cuisine": "Burger",
+      "area": "Virginia Tech area",
+      "description": "Burger listed within 10 miles of Virginia Tech.",
+      "website": "https://burgerking.com/store-locator/store/4118",
+      "website_label": "Listing website",
+      "initials": "BK",
+      "tags": [
+        "Burger"
+      ],
+      "address": "260 W Main St",
+      "lat": 37.12726593017578,
+      "lng": -80.41134643554688,
+      "distance_miles": 6.9
+    },
+    {
+      "id": 10068019510980,
+      "source_id": "39673b03-030d-49e7-9a3f-5a658e5f4ac1",
+      "name": "Country Cookin",
+      "cuisine": "American",
+      "area": "Virginia Tech area",
+      "description": "American listed within 10 miles of Virginia Tech.",
+      "website": "http://www.countrycookin.com/",
+      "website_label": "Listing website",
+      "initials": "CC",
+      "tags": [
+        "American"
+      ],
+      "address": "2020 Roanoke St",
+      "lat": 37.13541030883789,
+      "lng": -80.3718032836914,
+      "distance_miles": 6.9
+    },
+    {
+      "id": 5782767429451,
+      "source_id": "5062f413-da1d-4816-9933-28ceee709ea5",
+      "name": "Country Kitchen",
+      "cuisine": "American",
+      "area": "Virginia Tech area",
+      "description": "American listed within 10 miles of Virginia Tech.",
+      "website": "http://www.countrykitchenrestaurants.com",
+      "website_label": "Listing website",
+      "initials": "CK",
+      "tags": [
+        "American"
+      ],
+      "address": "1080 Radford St",
+      "lat": 37.12669372558594,
+      "lng": -80.43002319335938,
+      "distance_miles": 7
+    },
+    {
+      "id": 12583693287339,
+      "source_id": "3e0cda4b-b7c9-4a07-a2a1-fdc2de60f10e",
+      "name": "Crab Creek Seafood Restaurant",
+      "cuisine": "Seafood",
+      "area": "Virginia Tech area",
+      "description": "Seafood listed within 10 miles of Virginia Tech.",
+      "website": "http://crabcreek.info/",
+      "website_label": "Listing website",
+      "initials": "CC",
+      "tags": [
+        "Seafood"
+      ],
+      "address": "9 Radford St NW",
+      "lat": 37.12684631347656,
+      "lng": -80.41386413574219,
+      "distance_miles": 7
+    },
+    {
+      "id": 2767848539732,
+      "source_id": "d6691c3e-cce0-4d20-b343-2e226d6d194a",
+      "name": "DUE SOUTH PIT COOKED BBQ",
+      "cuisine": "Barbecue",
+      "area": "Virginia Tech area",
+      "description": "Barbecue listed within 10 miles of Virginia Tech.",
+      "website": "http://www.duesouthbbq.com/",
+      "website_label": "Listing website",
+      "initials": "DS",
+      "tags": [
+        "Barbecue"
+      ],
+      "address": "1465 Roanoke St",
+      "lat": 37.13223648071289,
+      "lng": -80.38037109375,
+      "distance_miles": 7
+    },
+    {
+      "id": 3918381819739,
+      "source_id": "6fe94154-b760-4898-a267-2598b5b409a2",
+      "name": "El Bronco Mexican Bar & Grill",
+      "cuisine": "Mexican",
+      "area": "Virginia Tech area",
+      "description": "Mexican listed within 10 miles of Virginia Tech.",
+      "website": "http://www.elbroncova.net/",
+      "website_label": "Listing website",
+      "initials": "EB",
+      "tags": [
+        "Mexican"
+      ],
+      "address": "6 Radford St",
+      "lat": 37.126487731933594,
+      "lng": -80.4134521484375,
+      "distance_miles": 7
+    },
+    {
+      "id": 11668838661055,
+      "source_id": "f244c406-e362-41a6-bd14-b45bbb6900da",
+      "name": "Fiesta Mexicana Restaurant & Taqueria",
+      "cuisine": "Mexican",
+      "area": "Virginia Tech area",
+      "description": "Mexican listed within 10 miles of Virginia Tech.",
+      "website": "https://fiestamexicanarestauranttaqueria.com",
+      "website_label": "Listing website",
+      "initials": "FM",
+      "tags": [
+        "Mexican"
+      ],
+      "address": "1465 Roanoke St",
+      "lat": 37.13217544555664,
+      "lng": -80.38037872314453,
+      "distance_miles": 7
+    },
+    {
+      "id": 9693564203571,
+      "source_id": "a50cb99b-ee02-44f7-9c45-b4b319c3d3f6",
+      "name": "Hunan House",
+      "cuisine": "Chinese",
+      "area": "Virginia Tech area",
+      "description": "Chinese listed within 10 miles of Virginia Tech.",
+      "website": "https://hunan-house-va.hub.biz/",
+      "website_label": "Listing website",
+      "initials": "HH",
+      "tags": [
+        "Chinese"
+      ],
+      "address": "2100 Roanoke St",
+      "lat": 37.13576889038086,
+      "lng": -80.36945343017578,
+      "distance_miles": 7
+    },
+    {
+      "id": 9391778231139,
+      "source_id": "fb1e6082-c22a-4033-b545-5017f140552a",
+      "name": "Long John Silver's",
+      "cuisine": "Seafood",
+      "area": "Virginia Tech area",
+      "description": "Seafood listed within 10 miles of Virginia Tech.",
+      "website": "https://www.ljsilvers.com/?y_source=1_MTc1NzMzNTMtNTU5LWxvY2F0aW9uLndlYnNpdGU%3D",
+      "website_label": "Listing website",
+      "initials": "LJ",
+      "tags": [
+        "Seafood"
+      ],
+      "address": "1625 Roanoke St",
+      "lat": 37.13252258300781,
+      "lng": -80.37688446044922,
+      "distance_miles": 7
+    },
+    {
+      "id": 4819058091685,
+      "source_id": "15960cd8-02e4-4903-8f54-ddf47dc45eed",
+      "name": "Doc Hamilton's Brewing Company",
+      "cuisine": "Restaurant",
+      "area": "Virginia Tech area",
+      "description": "Restaurant listed within 10 miles of Virginia Tech.",
+      "website": "",
+      "website_label": "Listing website",
+      "initials": "DH",
+      "tags": [
+        "Restaurant"
+      ],
+      "address": "2764 Seneca Hollow Rd",
+      "lat": 37.202178955078125,
+      "lng": -80.29682159423828,
+      "distance_miles": 7.1
+    },
+    {
+      "id": 5807681277675,
+      "source_id": "db7bfc61-c5ca-4c6b-935f-8d6f4a5c0c4d",
+      "name": "Domino's",
+      "cuisine": "Pizza",
+      "area": "Virginia Tech area",
+      "description": "Pizza listed within 10 miles of Virginia Tech.",
+      "website": "https://www.dominos.com/en/?utm_source=google&utm_medium=loclist&utm_campaign=localmaps",
+      "website_label": "Listing website",
+      "initials": "D",
+      "tags": [
+        "Pizza"
+      ],
+      "address": "1655 Roanoke St",
+      "lat": 37.132049560546875,
+      "lng": -80.37602996826172,
+      "distance_miles": 7.1
+    },
+    {
+      "id": 7433960010967,
+      "source_id": "fd844a78-9f1d-45e9-a4f4-a40d9af8a622",
+      "name": "Fatback Soul Shack",
+      "cuisine": "Seafood",
+      "area": "Virginia Tech area",
+      "description": "Seafood listed within 10 miles of Virginia Tech.",
+      "website": "http://www.fatbacksoulshack.com/",
+      "website_label": "Listing website",
+      "initials": "FS",
+      "tags": [
+        "Seafood"
+      ],
+      "address": "2440 Roanoke Street",
+      "lat": 37.137489318847656,
+      "lng": -80.35901641845703,
+      "distance_miles": 7.1
+    },
+    {
+      "id": 2657786573494,
+      "source_id": "e4f3d0f5-2c8e-46bb-ae64-3432cd98fb46",
+      "name": "Libby's Bbq",
+      "cuisine": "Barbecue",
+      "area": "Virginia Tech area",
+      "description": "Barbecue listed within 10 miles of Virginia Tech.",
+      "website": "http://libbysbbq.com",
+      "website_label": "Listing website",
+      "initials": "LB",
+      "tags": [
+        "Barbecue"
+      ],
+      "address": "2380 Roanoke St  Ste C",
+      "lat": 37.13712692260742,
+      "lng": -80.36170196533203,
+      "distance_miles": 7.1
+    },
+    {
+      "id": 11895404360726,
+      "source_id": "a229e4d4-461b-451b-8d48-a20b73d41b05",
+      "name": "Pizza Hut",
+      "cuisine": "Restaurant",
+      "area": "Virginia Tech area",
+      "description": "Restaurant listed within 10 miles of Virginia Tech.",
+      "website": "https://locations.pizzahut.com/va/christiansburg/2387-roanoke-st?utm_medium=organic&utm_source=local&utm_campaign=yextpowerlistings&utm_content=website&utm_term=299475",
+      "website_label": "Listing website",
+      "initials": "PH",
+      "tags": [
+        "Restaurant"
+      ],
+      "address": "2387 Roanoke St",
+      "lat": 37.13711929321289,
+      "lng": -80.36132049560547,
+      "distance_miles": 7.1
+    },
+    {
+      "id": 14978147901653,
+      "source_id": "c1d8d1cf-8df1-47e4-bca1-4c0a3c3a2e23",
+      "name": "Ruby Tuesday",
+      "cuisine": "American",
+      "area": "Virginia Tech area",
+      "description": "American listed within 10 miles of Virginia Tech.",
+      "website": "http://rubytuesday.com/",
+      "website_label": "Listing website",
+      "initials": "RT",
+      "tags": [
+        "American"
+      ],
+      "address": "2380 Roanoke St",
+      "lat": 37.13692092895508,
+      "lng": -80.36160278320312,
+      "distance_miles": 7.1
+    },
+    {
+      "id": 2769826067339,
+      "source_id": "2f5cc916-451a-47e9-84d6-57e7e95ac272",
+      "name": "Waffle House",
+      "cuisine": "Breakfast And Brunch",
+      "area": "Virginia Tech area",
+      "description": "Breakfast And Brunch listed within 10 miles of Virginia Tech.",
+      "website": "http://www.wafflehouse.com/Regulars",
+      "website_label": "Listing website",
+      "initials": "WH",
+      "tags": [
+        "Breakfast And Brunch"
+      ],
+      "address": "2440 Roanoke St",
+      "lat": 37.13747024536133,
+      "lng": -80.35907745361328,
+      "distance_miles": 7.1
+    },
+    {
+      "id": 6394137805062,
+      "source_id": "3edfc9e1-1314-4712-88af-1e86aea7d34a",
+      "name": "Western Sizzlin Steak House",
+      "cuisine": "American",
+      "area": "Virginia Tech area",
+      "description": "American listed within 10 miles of Virginia Tech.",
+      "website": "http://www.western-sizzlin.com",
+      "website_label": "Listing website",
+      "initials": "WS",
+      "tags": [
+        "American"
+      ],
+      "address": "2255 Roanoke St",
+      "lat": 37.135223388671875,
+      "lng": -80.3659439086914,
+      "distance_miles": 7.1
+    },
+    {
+      "id": 14482925193436,
+      "source_id": "be3bec7c-e669-43e8-b741-e9786bbdfee0",
+      "name": "Cracker Barrel",
+      "cuisine": "Southern American",
+      "area": "Virginia Tech area",
+      "description": "Southern American listed within 10 miles of Virginia Tech.",
+      "website": "https://www.crackerbarrel.com/Locations/States/va/christiansburg/60/",
+      "website_label": "Listing website",
+      "initials": "CB",
+      "tags": [
+        "Southern American"
+      ],
+      "address": "30 Hampton Blvd. I-81 & U.S. 460",
+      "lat": 37.138797760009766,
+      "lng": -80.35372924804688,
+      "distance_miles": 7.2
+    },
+    {
+      "id": 15148250669757,
+      "source_id": "04315857-b1a2-4aaa-9f09-fe3a57ed2f33",
+      "name": "Lost In Taste",
+      "cuisine": "Restaurant",
+      "area": "Virginia Tech area",
+      "description": "Restaurant listed within 10 miles of Virginia Tech.",
+      "website": "https://litbar.space",
+      "website_label": "Listing website",
+      "initials": "LI",
+      "tags": [
+        "Restaurant"
+      ],
+      "address": "2675 Roanoke St",
+      "lat": 37.13768768310547,
+      "lng": -80.35134887695312,
+      "distance_miles": 7.3
+    },
+    {
+      "id": 2586422256302,
+      "source_id": "b2ef94df-c5a1-4b5d-a108-2ebc13e15675",
+      "name": "Hunt Brothers Pizza",
+      "cuisine": "Pizza",
+      "area": "Virginia Tech area",
+      "description": "Pizza listed within 10 miles of Virginia Tech.",
+      "website": "http://www.huntbrotherspizza.com/",
+      "website_label": "Listing website",
+      "initials": "HB",
+      "tags": [
+        "Pizza"
+      ],
+      "address": "1250 W Main St",
+      "lat": 37.11861038208008,
+      "lng": -80.42115783691406,
+      "distance_miles": 7.5
+    },
+    {
+      "id": 15312130523309,
+      "source_id": "b13fd563-cce7-4ee7-8160-f5ed1516d436",
+      "name": "Krispy Krunchy Chicken",
+      "cuisine": "Chicken",
+      "area": "Virginia Tech area",
+      "description": "Chicken listed within 10 miles of Virginia Tech.",
+      "website": "https://locations.krispykrunchy.com/va/christiansburg/1250-west-main-at",
+      "website_label": "Listing website",
+      "initials": "KK",
+      "tags": [
+        "Chicken"
+      ],
+      "address": "1250 West Main At",
+      "lat": 37.11824035644531,
+      "lng": -80.42052459716797,
+      "distance_miles": 7.5
+    },
+    {
+      "id": 10732821557216,
+      "source_id": "020450ee-7ee0-4515-aa5a-94fcd003f0da",
+      "name": "Long Shop Hard Rock Cafe",
+      "cuisine": "Cafe",
+      "area": "Virginia Tech area",
+      "description": "Cafe listed within 10 miles of Virginia Tech.",
+      "website": "",
+      "website_label": "Listing website",
+      "initials": "LS",
+      "tags": [
+        "Cafe"
+      ],
+      "address": "222 Possum Holw",
+      "lat": 37.21184539794922,
+      "lng": -80.5588607788086,
+      "distance_miles": 7.6
+    },
+    {
+      "id": 4091620947699,
+      "source_id": "03a4adf7-4e78-4962-9895-bf903f2d104d",
+      "name": "Mountain View Italian Kitchen",
+      "cuisine": "Italian",
+      "area": "Virginia Tech area",
+      "description": "Italian listed within 10 miles of Virginia Tech.",
+      "website": "http://www.mountainviewitaliankitchen.com/",
+      "website_label": "Listing website",
+      "initials": "MV",
+      "tags": [
+        "Italian"
+      ],
+      "address": "3199 N Fork Rd",
+      "lat": 37.213199615478516,
+      "lng": -80.28404998779297,
+      "distance_miles": 7.7
+    },
+    {
+      "id": 4609835053689,
+      "source_id": "dc621502-4c00-4700-a5fe-69f2960c4f3c",
+      "name": "Bulls & Bones at The River",
+      "cuisine": "Steakhouse",
+      "area": "Virginia Tech area",
+      "description": "Steakhouse listed within 10 miles of Virginia Tech.",
+      "website": "http://www.bullandbones.com/river",
+      "website_label": "Listing website",
+      "initials": "B&",
+      "tags": [
+        "Steakhouse"
+      ],
+      "address": "8400 River Course Dr",
+      "lat": 37.15166473388672,
+      "lng": -80.5299072265625,
+      "distance_miles": 7.9
+    },
+    {
+      "id": 13975665523562,
+      "source_id": "42ca6602-233e-49e9-a2b1-f48bf006e8d2",
+      "name": "Amigo's Mexican grill",
+      "cuisine": "Restaurant",
+      "area": "Virginia Tech area",
+      "description": "Restaurant listed within 10 miles of Virginia Tech.",
+      "website": "",
+      "website_label": "Listing website",
+      "initials": "AM",
+      "tags": [
+        "Restaurant"
+      ],
+      "address": "3631 Radford Rd",
+      "lat": 37.128726959228516,
+      "lng": -80.5097427368164,
+      "distance_miles": 8.4
+    },
+    {
+      "id": 4748107113831,
+      "source_id": "5ea490ab-0b11-4f1a-9002-d9920af1c40c",
+      "name": "Italiano's Pizza",
+      "cuisine": "Pizza",
+      "area": "Virginia Tech area",
+      "description": "Pizza listed within 10 miles of Virginia Tech.",
+      "website": "https://www.italianospizzamenu.com/?utm_source=organic_bing&utm_medium=bing_pw",
+      "website_label": "Listing website",
+      "initials": "IP",
+      "tags": [
+        "Pizza"
+      ],
+      "address": "3631 Radford Rd",
+      "lat": 37.128726959228516,
+      "lng": -80.5097427368164,
+      "distance_miles": 8.4
+    },
+    {
+      "id": 11127256394610,
+      "source_id": "ef2fa10d-2a9e-42e1-8975-1978dabe0b13",
+      "name": "Oliver's",
+      "cuisine": "Burger",
+      "area": "Virginia Tech area",
+      "description": "Burger listed within 10 miles of Virginia Tech.",
+      "website": "http://www.oliverschristiansburg.com",
+      "website_label": "Listing website",
+      "initials": "O",
+      "tags": [
+        "Burger"
+      ],
+      "address": "3631 Radford Rd Ste B",
+      "lat": 37.128597259521484,
+      "lng": -80.50962829589844,
+      "distance_miles": 8.4
+    },
+    {
+      "id": 7854024519836,
+      "source_id": "26072fce-492d-4019-8f9f-0d8680fbb717",
+      "name": "The Traveling Table",
+      "cuisine": "American",
+      "area": "Virginia Tech area",
+      "description": "American listed within 10 miles of Virginia Tech.",
+      "website": "",
+      "website_label": "Listing website",
+      "initials": "TT",
+      "tags": [
+        "American"
+      ],
+      "address": "3411 Seneca Hollow Rd",
+      "lat": 37.19305419921875,
+      "lng": -80.27522277832031,
+      "distance_miles": 8.4
+    },
+    {
+      "id": 1787755997927,
+      "source_id": "74a41dd3-4f28-41ab-8f6b-4b0eb901399e",
+      "name": "The River Company Restaurant and Brewery",
+      "cuisine": "Steakhouse",
+      "area": "Virginia Tech area",
+      "description": "Steakhouse listed within 10 miles of Virginia Tech.",
+      "website": "http://www.therivercompanyrestaurant.com/",
+      "website_label": "Listing website",
+      "initials": "TR",
+      "tags": [
+        "Steakhouse"
+      ],
+      "address": "6633 Viscoe Rd",
+      "lat": 37.146060943603516,
+      "lng": -80.54489135742188,
+      "distance_miles": 8.8
+    },
+    {
+      "id": 9357277563397,
+      "source_id": "271e3fa4-ac0a-4fe8-9982-69de68dae09c",
+      "name": "La Cabaña Mex Grill",
+      "cuisine": "Mexican",
+      "area": "Virginia Tech area",
+      "description": "Mexican listed within 10 miles of Virginia Tech.",
+      "website": "http://www.lacabanaradford.com/",
+      "website_label": "Listing website",
+      "initials": "LC",
+      "tags": [
+        "Mexican"
+      ],
+      "address": "310 E Main St",
+      "lat": 37.135711669921875,
+      "lng": -80.54135131835938,
+      "distance_miles": 9.1
+    },
+    {
+      "id": 9449741407553,
+      "source_id": "f9896fce-3708-48c6-84b6-8eff11a6a046",
+      "name": "Pollo Loco",
+      "cuisine": "Mexican",
+      "area": "Virginia Tech area",
+      "description": "Mexican listed within 10 miles of Virginia Tech.",
+      "website": "http://www.elpolloloco.com",
+      "website_label": "Listing website",
+      "initials": "PL",
+      "tags": [
+        "Mexican"
+      ],
+      "address": "310 E Main St",
+      "lat": 37.13574981689453,
+      "lng": -80.54125213623047,
+      "distance_miles": 9.1
+    },
+    {
+      "id": 5851039164624,
+      "source_id": "7b501d45-5954-4674-b2b7-0047ad5417a3",
+      "name": "Canton Chinese Restaurant",
+      "cuisine": "Chinese",
+      "area": "Virginia Tech area",
+      "description": "Chinese listed within 10 miles of Virginia Tech.",
+      "website": "http://cantonsf.com/",
+      "website_label": "Listing website",
+      "initials": "CC",
+      "tags": [
+        "Chinese"
+      ],
+      "address": "702 E Main St",
+      "lat": 37.13823699951172,
+      "lng": -80.546142578125,
+      "distance_miles": 9.2
+    },
+    {
+      "id": 9056057827468,
+      "source_id": "10712598-7f6a-4d9e-862d-3c625dbcfe66",
+      "name": "Highlander Pizza",
+      "cuisine": "Pizza",
+      "area": "Virginia Tech area",
+      "description": "Pizza listed within 10 miles of Virginia Tech.",
+      "website": "https://www.highlanderpizzaradfordva.com",
+      "website_label": "Listing website",
+      "initials": "HP",
+      "tags": [
+        "Pizza"
+      ],
+      "address": "700 E Main St",
+      "lat": 37.137943267822266,
+      "lng": -80.54572296142578,
+      "distance_miles": 9.2
+    },
+    {
+      "id": 3032431180094,
+      "source_id": "ce9c7d6d-bacc-4852-b088-466fc3fb75d3",
+      "name": "Macado's",
+      "cuisine": "Bar And Grill",
+      "area": "Virginia Tech area",
+      "description": "Bar And Grill listed within 10 miles of Virginia Tech.",
+      "website": "http://www.macados.net/",
+      "website_label": "Listing website",
+      "initials": "M",
+      "tags": [
+        "Bar And Grill"
+      ],
+      "address": "510 E Main St",
+      "lat": 37.13680648803711,
+      "lng": -80.543701171875,
+      "distance_miles": 9.2
+    },
+    {
+      "id": 14006667753693,
+      "source_id": "dda955cb-6655-4bfb-8dc6-0f1e76255a9f",
+      "name": "Moe's Pizza",
+      "cuisine": "Pizza",
+      "area": "Virginia Tech area",
+      "description": "Pizza listed within 10 miles of Virginia Tech.",
+      "website": "https://www.moespizzava.com",
+      "website_label": "Listing website",
+      "initials": "MP",
+      "tags": [
+        "Pizza"
+      ],
+      "address": "501 E Main St",
+      "lat": 37.13572311401367,
+      "lng": -80.54279327392578,
+      "distance_miles": 9.2
+    },
+    {
+      "id": 11924095901512,
+      "source_id": "af56c254-da93-4a7e-86f2-4ca4d94d9335",
+      "name": "Roma Pizza",
+      "cuisine": "Burger",
+      "area": "Virginia Tech area",
+      "description": "Burger listed within 10 miles of Virginia Tech.",
+      "website": "https://www.romapizzaradford.com/?utm_source=bing&utm_medium=websiteurl&utm_campaign=search",
+      "website_label": "Listing website",
+      "initials": "RP",
+      "tags": [
+        "Burger"
+      ],
+      "address": "501 E Main St",
+      "lat": 37.13572311401367,
+      "lng": -80.54285430908203,
+      "distance_miles": 9.2
+    },
+    {
+      "id": 3908636812734,
+      "source_id": "4cdc7afc-4c2e-43d8-8ef3-79ddb0d56f81",
+      "name": "Chancey's",
+      "cuisine": "Restaurant",
+      "area": "Virginia Tech area",
+      "description": "Restaurant listed within 10 miles of Virginia Tech.",
+      "website": "http://www.chanceys.com",
+      "website_label": "Listing website",
+      "initials": "C",
+      "tags": [
+        "Restaurant"
+      ],
+      "address": "118 Tyler Ave",
+      "lat": 37.140098571777344,
+      "lng": -80.55402374267578,
+      "distance_miles": 9.4
+    },
+    {
+      "id": 9861500829239,
+      "source_id": "e0f64210-322a-4e48-841c-bfab6f3f43d7",
+      "name": "Dalton Dining Hall",
+      "cuisine": "Cafeteria",
+      "area": "Virginia Tech area",
+      "description": "Cafeteria listed within 10 miles of Virginia Tech.",
+      "website": "http://dineoncampus.com/radford",
+      "website_label": "Listing website",
+      "initials": "DD",
+      "tags": [
+        "Cafeteria"
+      ],
+      "address": "Fairfax St.",
+      "lat": 37.13671875,
+      "lng": -80.54940032958984,
+      "distance_miles": 9.4
+    },
+    {
+      "id": 814951592751,
+      "source_id": "bb3a7835-f11d-4576-9d78-497697c8cd95",
+      "name": "Dalton Kitchen",
+      "cuisine": "Buffet",
+      "area": "Virginia Tech area",
+      "description": "Buffet listed within 10 miles of Virginia Tech.",
+      "website": "http://dineoncampus.com/radford",
+      "website_label": "Listing website",
+      "initials": "DK",
+      "tags": [
+        "Buffet"
+      ],
+      "address": "798 Fairfax St",
+      "lat": 37.13663101196289,
+      "lng": -80.54939270019531,
+      "distance_miles": 9.4
+    },
+    {
+      "id": 5364470772179,
+      "source_id": "44c03ea2-a10e-46a0-9c95-30e0c38ae338",
+      "name": "Screamer's Sports Grill",
+      "cuisine": "Bar And Grill",
+      "area": "Virginia Tech area",
+      "description": "Bar And Grill listed within 10 miles of Virginia Tech.",
+      "website": "http://www.screamerssportsgrill.com",
+      "website_label": "Listing website",
+      "initials": "SS",
+      "tags": [
+        "Bar And Grill"
+      ],
+      "address": "1017 E Main St",
+      "lat": 37.14093017578125,
+      "lng": -80.5546875,
+      "distance_miles": 9.4
+    },
+    {
+      "id": 12375911473736,
+      "source_id": "174982e4-9dfb-406b-a640-1533d3842170",
+      "name": "Sugar Shack of Radford",
+      "cuisine": "Restaurant",
+      "area": "Virginia Tech area",
+      "description": "Restaurant listed within 10 miles of Virginia Tech.",
+      "website": "",
+      "website_label": "Listing website",
+      "initials": "SS",
+      "tags": [
+        "Restaurant"
+      ],
+      "address": "1025 E Main St",
+      "lat": 37.141117095947266,
+      "lng": -80.55487060546875,
+      "distance_miles": 9.4
+    },
+    {
+      "id": 10343831161743,
+      "source_id": "585784f4-0185-4e59-a655-94a164b4e1da",
+      "name": "Benny Nicola's",
+      "cuisine": "Pizza",
+      "area": "Virginia Tech area",
+      "description": "Pizza listed within 10 miles of Virginia Tech.",
+      "website": "http://www.bennysva.com/",
+      "website_label": "Listing website",
+      "initials": "BN",
+      "tags": [
+        "Pizza"
+      ],
+      "address": "1018 Clement St",
+      "lat": 37.13787841796875,
+      "lng": -80.55390167236328,
+      "distance_miles": 9.5
+    },
+    {
+      "id": 10413437019848,
+      "source_id": "00a34bbf-523a-4938-a7b0-222be4032ad0",
+      "name": "Damon's",
+      "cuisine": "Steakhouse",
+      "area": "Virginia Tech area",
+      "description": "Steakhouse listed within 10 miles of Virginia Tech.",
+      "website": "http://www.damons.com",
+      "website_label": "Listing website",
+      "initials": "D",
+      "tags": [
+        "Steakhouse"
+      ],
+      "address": "1501 Tyler Ave",
+      "lat": 37.1264533996582,
+      "lng": -80.53804779052734,
+      "distance_miles": 9.5
+    },
+    {
+      "id": 10014813893890,
+      "source_id": "97b210f6-759f-4690-adc8-a6464ad54b4c",
+      "name": "Happy Cinco De Mayo - Mexican Grill",
+      "cuisine": "Mexican",
+      "area": "Virginia Tech area",
+      "description": "Mexican listed within 10 miles of Virginia Tech.",
+      "website": "https://happycincodemayoswva.com/",
+      "website_label": "Listing website",
+      "initials": "HC",
+      "tags": [
+        "Mexican"
+      ],
+      "address": "1121 E Main St",
+      "lat": 37.140846252441406,
+      "lng": -80.55731201171875,
+      "distance_miles": 9.5
+    },
+    {
+      "id": 7417208538459,
+      "source_id": "7693f59a-a517-416f-9842-6985ce2be059",
+      "name": "Mike's Famous Pizza",
+      "cuisine": "Pizza",
+      "area": "Virginia Tech area",
+      "description": "Pizza listed within 10 miles of Virginia Tech.",
+      "website": "http://www.mikesfamouspizzaradford.com",
+      "website_label": "Listing website",
+      "initials": "MF",
+      "tags": [
+        "Pizza"
+      ],
+      "address": "1023 Grove Ave",
+      "lat": 37.13972473144531,
+      "lng": -80.55477905273438,
+      "distance_miles": 9.5
+    },
+    {
+      "id": 17582220105363,
+      "source_id": "ace2cafb-7f14-41a6-8157-28b49e2d1207",
+      "name": "Moe's Southwest Grill",
+      "cuisine": "Mexican",
+      "area": "Virginia Tech area",
+      "description": "Mexican listed within 10 miles of Virginia Tech.",
+      "website": "https://www.moes.com",
+      "website_label": "Listing website",
+      "initials": "MS",
+      "tags": [
+        "Mexican"
+      ],
+      "address": "314 Tyler Ave",
+      "lat": 37.13813018798828,
+      "lng": -80.55343627929688,
+      "distance_miles": 9.5
+    },
+    {
+      "id": 6129581737602,
+      "source_id": "c6de8a25-79ca-4c36-9394-a3e0a6e6f946",
+      "name": "Thai This Express",
+      "cuisine": "Thai",
+      "area": "Virginia Tech area",
+      "description": "Thai listed within 10 miles of Virginia Tech.",
+      "website": "http://thaithisfoodtruck.com/",
+      "website_label": "Listing website",
+      "initials": "TT",
+      "tags": [
+        "Thai"
+      ],
+      "address": "1401 Tyler Ave",
+      "lat": 37.12850570678711,
+      "lng": -80.541259765625,
+      "distance_miles": 9.5
+    },
+    {
+      "id": 14711759108363,
+      "source_id": "cfdfd45c-2fd6-4d42-90f2-3b3a956f1faf",
+      "name": "Arabica Cafe & Bakery",
+      "cuisine": "Cafe",
+      "area": "Virginia Tech area",
+      "description": "Cafe listed within 10 miles of Virginia Tech.",
+      "website": "https://arabicacafe.square.site/",
+      "website_label": "Listing website",
+      "initials": "AC",
+      "tags": [
+        "Cafe"
+      ],
+      "address": "1158 E Main St",
+      "lat": 37.14098358154297,
+      "lng": -80.55806732177734,
+      "distance_miles": 9.6
+    },
+    {
+      "id": 6043781859832,
+      "source_id": "56e2fa05-0501-49a0-b0ca-cf455cf68420",
+      "name": "Fujiya Ramen VA",
+      "cuisine": "Restaurant",
+      "area": "Virginia Tech area",
+      "description": "Restaurant listed within 10 miles of Virginia Tech.",
+      "website": "",
+      "website_label": "Listing website",
+      "initials": "FR",
+      "tags": [
+        "Restaurant"
+      ],
+      "address": "103 3rd Ave",
+      "lat": 37.14046859741211,
+      "lng": -80.55795288085938,
+      "distance_miles": 9.6
+    },
+    {
+      "id": 10067256515938,
+      "source_id": "10a084a1-6d0f-45df-91ee-b210c33523f3",
+      "name": "Mamma Kitchen",
+      "cuisine": "Restaurant",
+      "area": "Virginia Tech area",
+      "description": "Restaurant listed within 10 miles of Virginia Tech.",
+      "website": "http://mammakitchen.online",
+      "website_label": "Listing website",
+      "initials": "MK",
+      "tags": [
+        "Restaurant"
+      ],
+      "address": "1154 E Main St",
+      "lat": 37.14118957519531,
+      "lng": -80.55811309814453,
+      "distance_miles": 9.6
+    },
+    {
+      "id": 13920958050518,
+      "source_id": "62c4278b-e5ca-45b0-8c23-903d04b4f7ba",
+      "name": "Nagoya Sushi",
+      "cuisine": "Sushi",
+      "area": "Virginia Tech area",
+      "description": "Sushi listed within 10 miles of Virginia Tech.",
+      "website": "https://www.nagoyaradford.com/",
+      "website_label": "Listing website",
+      "initials": "NS",
+      "tags": [
+        "Sushi"
+      ],
+      "address": "1144 E Main St",
+      "lat": 37.140995025634766,
+      "lng": -80.55784606933594,
+      "distance_miles": 9.6
+    },
+    {
+      "id": 4177070294641,
+      "source_id": "6b542ea1-e6d4-441a-970d-fd0a5f9cfbb8",
+      "name": "Red Provisions",
+      "cuisine": "Cafe",
+      "area": "Virginia Tech area",
+      "description": "Cafe listed within 10 miles of Virginia Tech.",
+      "website": "https://www.highlanderradford.com/eat-and-drink.htm",
+      "website_label": "Listing website",
+      "initials": "RP",
+      "tags": [
+        "Cafe"
+      ],
+      "address": "600 Tyler Ave",
+      "lat": 37.13557052612305,
+      "lng": -80.55319213867188,
+      "distance_miles": 9.6
+    },
+    {
+      "id": 12849573204558,
+      "source_id": "abe551a6-30fd-47e9-9e5c-35a46364c90b",
+      "name": "River City Grill",
+      "cuisine": "American",
+      "area": "Virginia Tech area",
+      "description": "American listed within 10 miles of Virginia Tech.",
+      "website": "http://rivercitygrillva.com",
+      "website_label": "Listing website",
+      "initials": "RC",
+      "tags": [
+        "American"
+      ],
+      "address": "103 3rd Ave",
+      "lat": 37.1405029296875,
+      "lng": -80.55810546875,
+      "distance_miles": 9.6
+    },
+    {
+      "id": 1669014932017,
+      "source_id": "55939129-4173-441e-874c-055bda258154",
+      "name": "Sharkey's Wing & Rib Joint",
+      "cuisine": "Bar And Grill",
+      "area": "Virginia Tech area",
+      "description": "Bar And Grill listed within 10 miles of Virginia Tech.",
+      "website": "https://sharkeyswingandribjoint.com",
+      "website_label": "Listing website",
+      "initials": "SW",
+      "tags": [
+        "Bar And Grill"
+      ],
+      "address": "1202 E Main St",
+      "lat": 37.14116668701172,
+      "lng": -80.55835723876953,
+      "distance_miles": 9.6
+    },
+    {
+      "id": 16665753781018,
+      "source_id": "32bd1cab-dc51-4152-b62c-b0f43c5b8d7c",
+      "name": "Aly's Family Italian Restaurant",
+      "cuisine": "Italian",
+      "area": "Virginia Tech area",
+      "description": "Italian listed within 10 miles of Virginia Tech.",
+      "website": "https://si4443663.wixsite.com/my-site",
+      "website_label": "Listing website",
+      "initials": "AF",
+      "tags": [
+        "Italian"
+      ],
+      "address": "3204 Riner Rd",
+      "lat": 37.08846664428711,
+      "lng": -80.45101165771484,
+      "distance_miles": 9.7
+    },
+    {
+      "id": 2541040739686,
+      "source_id": "cb1181b2-f5a1-436a-8c40-4da5694ed470",
+      "name": "Delaney's Kitchen",
+      "cuisine": "Restaurant",
+      "area": "Virginia Tech area",
+      "description": "Restaurant listed within 10 miles of Virginia Tech.",
+      "website": "",
+      "website_label": "Listing website",
+      "initials": "DK",
+      "tags": [
+        "Restaurant"
+      ],
+      "address": "7554 Peppers Ferry Blvd",
+      "lat": 37.15396499633789,
+      "lng": -80.57296752929688,
+      "distance_miles": 9.7
+    },
+    {
+      "id": 13981435361473,
+      "source_id": "a59b2b60-bc5e-4b94-ab17-2f33f4bd78b3",
+      "name": "Lin House",
+      "cuisine": "Chinese",
+      "area": "Virginia Tech area",
+      "description": "Chinese listed within 10 miles of Virginia Tech.",
+      "website": "https://www.linshouseradford.com",
+      "website_label": "Listing website",
+      "initials": "LH",
+      "tags": [
+        "Chinese"
+      ],
+      "address": "1200 Tyler Ave",
+      "lat": 37.128475189208984,
+      "lng": -80.547607421875,
+      "distance_miles": 9.7
+    },
+    {
+      "id": 12805926372850,
+      "source_id": "523e2ae2-3818-4f1c-8171-c8ae960baba2",
+      "name": "Papa Johns Pizza",
+      "cuisine": "Pizza",
+      "area": "Virginia Tech area",
+      "description": "Pizza listed within 10 miles of Virginia Tech.",
+      "website": "https://locations.papajohns.com/united-states/va/24141/radford/1200-tyler-ave?utm_source=facebook-store-pages&utm_medium=referral&y_source=1_MTA2OTIwNjEtNTU5LWxvY2F0aW9uLndlYnNpdGU%3D",
+      "website_label": "Listing website",
+      "initials": "PJ",
+      "tags": [
+        "Pizza"
+      ],
+      "address": "1200 Tyler Ave",
+      "lat": 37.12921905517578,
+      "lng": -80.5469741821289,
+      "distance_miles": 9.7
+    },
+    {
+      "id": 6742649875448,
+      "source_id": "9018d82e-4529-47d2-b51c-0249dfe632b5",
+      "name": "Pizanos Rte8",
+      "cuisine": "Italian",
+      "area": "Virginia Tech area",
+      "description": "Italian listed within 10 miles of Virginia Tech.",
+      "website": "http://pizanosrte8va.com/",
+      "website_label": "Listing website",
+      "initials": "PR",
+      "tags": [
+        "Italian"
+      ],
+      "address": "3204 Riner Rd",
+      "lat": 37.08854675292969,
+      "lng": -80.45092010498047,
+      "distance_miles": 9.7
+    },
+    {
+      "id": 13708669241731,
+      "source_id": "2b8daf9a-5b00-40d6-b3cb-de3674eeb4b1",
+      "name": "Domino's",
+      "cuisine": "Pizza",
+      "area": "Virginia Tech area",
+      "description": "Pizza listed within 10 miles of Virginia Tech.",
+      "website": "https://www.dominos.com/en/?utm_source=google&utm_medium=loclist&utm_campaign=localmaps",
+      "website_label": "Listing website",
+      "initials": "D",
+      "tags": [
+        "Pizza"
+      ],
+      "address": "1700 E Main St",
+      "lat": 37.14032745361328,
+      "lng": -80.56283569335938,
+      "distance_miles": 9.8
+    },
+    {
+      "id": 7770715720491,
+      "source_id": "0276a2c2-f03b-4133-9450-819571049229",
+      "name": "Hunt Brothers Pizza",
+      "cuisine": "Pizza",
+      "area": "Virginia Tech area",
+      "description": "Pizza listed within 10 miles of Virginia Tech.",
+      "website": "http://www.huntbrotherspizza.com/",
+      "website_label": "Listing website",
+      "initials": "HB",
+      "tags": [
+        "Pizza"
+      ],
+      "address": "6691 Roanoke Rd",
+      "lat": 37.16856002807617,
+      "lng": -80.26101684570312,
+      "distance_miles": 9.8
+    },
+    {
+      "id": 16355955622746,
+      "source_id": "3909eb4c-6cfc-49e7-83e5-830fc9df018f",
+      "name": "Golden Bowl",
+      "cuisine": "Chinese",
+      "area": "Virginia Tech area",
+      "description": "Chinese listed within 10 miles of Virginia Tech.",
+      "website": "http://Goldenbowlradford.com/",
+      "website_label": "Listing website",
+      "initials": "GB",
+      "tags": [
+        "Chinese"
+      ],
+      "address": "1802 E Main St",
+      "lat": 37.139747619628906,
+      "lng": -80.5640640258789,
+      "distance_miles": 9.9
+    },
+    {
+      "id": 16925653186488,
+      "source_id": "08727fbc-59dc-4aaf-932b-b7d13f514db2",
+      "name": "Little Caesars Pizza",
+      "cuisine": "Pizza",
+      "area": "Virginia Tech area",
+      "description": "Pizza listed within 10 miles of Virginia Tech.",
+      "website": "https://littlecaesarsstore.com",
+      "website_label": "Listing website",
+      "initials": "LC",
+      "tags": [
+        "Pizza"
+      ],
+      "address": "1804 E Main St",
+      "lat": 37.13960647583008,
+      "lng": -80.5650863647461,
+      "distance_miles": 9.9
+    },
+    {
+      "id": 14249290976056,
+      "source_id": "a559879e-0b73-4f35-8469-57bb5a728bc6",
+      "name": "A+ Pizza",
+      "cuisine": "Pizza",
+      "area": "Virginia Tech area",
+      "description": "Pizza listed within 10 miles of Virginia Tech.",
+      "website": "https://www.apluspizza.com/?utm_source=organic_bing&utm_medium=bing_pw",
+      "website_label": "Listing website",
+      "initials": "AP",
+      "tags": [
+        "Pizza"
+      ],
+      "address": "6936 Roanoke Rd",
+      "lat": 37.16818618774414,
+      "lng": -80.2564697265625,
+      "distance_miles": 10
+    },
+    {
+      "id": 16656363199690,
+      "source_id": "e6251888-6e56-446f-b170-a09399a2951b",
+      "name": "Pizano’s & Italiano’s",
+      "cuisine": "Italian",
+      "area": "Virginia Tech area",
+      "description": "Italian listed within 10 miles of Virginia Tech.",
+      "website": "http://pizanositalian.com/",
+      "website_label": "Listing website",
+      "initials": "P&",
+      "tags": [
+        "Italian"
+      ],
+      "address": "6936 Roanoke Rd",
+      "lat": 37.16816711425781,
+      "lng": -80.25648498535156,
+      "distance_miles": 10
+    }
+  ]
+}

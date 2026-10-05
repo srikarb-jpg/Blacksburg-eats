@@ -1,6 +1,6 @@
 # Blacksburg Eats
 
-A responsive restaurant discovery app for the Blacksburg community, implementing the four Must Have features from the supplied backlog: reviews (#5), local restaurant catalog (#6), accounts/authentication (#8), and search (#9), plus the interactive map (#7) requested afterward.
+A responsive restaurant discovery app for the Blacksburg community, implementing all ten backlog features: reviews, restaurant catalog, accounts, search, map, category ratings, photos, favorites, achievements, and restaurant tags.
 
 ## Run locally
 
@@ -15,7 +15,7 @@ Open **http://localhost:5173**. For a production build, run `npm run build`, the
 
 ## Demo walkthrough
 
-1. Browse the five local restaurant entries. Search for `Italian`, `Cabo`, or `Gilbert` and try the sort control.
+1. Browse 244 mapped restaurant and cafe listings within 10 miles of Virginia Tech. Search for `Italian`, `Cabo`, or `Gilbert`, sort by distance, and use **Show more restaurants** to browse beyond the first 24 cards.
 2. Open a restaurant to read reviews and see the average overall score.
 3. Choose **Sign in → Try the demo account**, or create an account with an email and password. No external service is needed.
 4. Write a review with a 1–5 overall rating. The average score and count update immediately.
@@ -32,7 +32,17 @@ Each demo sign-in creates a fresh isolated demo user; the session survives reloa
 - SQLite persistence at `data/eats.sqlite`; the database is excluded from git. `DB_PATH` and `PORT` override defaults. Set `COOKIE_SECURE=1` behind HTTPS.
 - Accessible native dialog and forms, visible keyboard focus, skip link, live status messages, radio-group ratings, responsive layout, and reduced-motion support.
 
-The original backlog governs release scope, with the map added by explicit follow-up request. Although the problem statement discusses separate category ratings, that feature remains excluded. Restaurant photos, favorites, badges, and tags are also excluded. Cuisine is basic catalog information used for search, not a tagging feature.
+All Must Have, Should Have, and Could Have items are now available by request.
+
+## New feature demo
+
+1. Sign in, then click a restaurant's heart to save it. **Favorites** filters the catalog and map to your saved restaurants. Favorites persist with your account.
+2. Choose a **Restaurant tag** to filter the catalog and map. Tags also match text searches. Tags are curated catalog attributes, not user-generated dietary guarantees.
+3. Write or edit a review and optionally score **Food quality**, **Service**, and **Atmosphere** from 1–5. The restaurant shows each category's average and count. Overall rating remains a separate assessment. Existing reviews are preserved and missing category ratings are excluded from category averages.
+4. Open a restaurant and choose **Add photo**. Upload a JPEG, PNG, or WebP up to 10 MB and provide a description used as accessible alternative text. The browser resizes/re-encodes images before upload; the server accepts supported image signatures up to 1 MB and stores them in SQLite. Each account can add up to ten photos per restaurant. Photos are public; only the author can remove them after confirmation. Galleries start empty until users contribute their own photos.
+5. Open **Achievements** to see First bite (1 review), Local explorer (3 restaurants reviewed), Around the Burg (5), Food photographer (1 photo), and Saved a seat (1 favorite). Progress derives from current contributions, so deleting contributions can relock a badge. Achievements never gate features.
+
+Database schema migrations run at startup and preserve existing accounts and reviews. Back up `data/eats.sqlite` along with its SQLite WAL state using a consistent SQLite backup before migrating a deployed database. Photos are stored in the same persistent database.
 
 ## Restaurant map
 
@@ -42,7 +52,9 @@ Addresses come from the official restaurant sites linked below, including [Our D
 
 Map tiles require internet access; no API key or live geocoding is needed. If tiles fail, a retry message appears and the restaurant pins, cards, and reviews remain usable. OpenStreetMap attribution remains visible. Tile use follows the [OpenStreetMap tile policy](https://operations.osmfoundation.org/policies/tiles/); tiles are requested only for the current view, with standard browser caching.
 
-This is a local MVP demo, not a full directory of every Blacksburg restaurant. Email ownership/student status is not verified, and password recovery, moderation, and production deployment are outside this must-have demo. Fonts load from Google Fonts with system fallbacks; other app features work without third-party credentials.
+The broader directory is a snapshot from Overture Maps Places, filtered by straight-line distance from the [Virginia Tech Blacksburg campus coordinates](https://www.facilities.vt.edu/university-building-official/building-code-compliance/building-code-related-design-criteria.html). It includes restaurant and cafe taxonomy categories, but third-party map data can have missing, duplicate, closed, or miscategorized places. Listings and positions should be checked before visiting; the app does not claim live or exhaustive coverage. The five original demo listings keep their IDs and sample reviews. Email ownership/student status is not verified, and password recovery, moderation, and production deployment are outside this demo. Fonts load from Google Fonts with system fallbacks; other app features work without third-party credentials.
+
+To refresh the mapped catalog, run `node scripts/fetch-overture.mjs` followed by `node scripts/prepare-catalog.mjs`. The first script requires network access and the `@duckdb/node-api` development dependency. The generated `restaurant-catalog.json` is committed, so normal app startup does not query Overture. Imported records are inserted with stable IDs and do not overwrite existing account contributions.
 
 ## Restaurant sources
 

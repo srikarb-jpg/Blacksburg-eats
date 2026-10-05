@@ -1,4 +1,5 @@
 import http from 'node:http';
+import { createFeatures } from './features.mjs';
 import { restaurantLocations } from './restaurant-locations.mjs';
 import { DatabaseSync } from 'node:sqlite';
 import { randomBytes, scryptSync, timingSafeEqual, createHash } from 'node:crypto';
@@ -24,6 +25,12 @@ const catalog = [
  [5,'Blacksburg Wine Lab','Small plates','Gilbert Street','Cheeses, charcuterie, sandwiches, and a menu built around local producers.','https://www.winelab.com/eat','WL']
 ];
 for (const r of catalog) db.prepare('INSERT OR IGNORE INTO restaurants VALUES(?,?,?,?,?,?,?)').run(...r);
+const nearbyCatalog=JSON.parse(readFileSync(new URL('./restaurant-catalog.json',import.meta.url),'utf8'));
+const nearbyById=new Map(nearbyCatalog.entries.map(r=>[r.id,r]));
+for(const r of nearbyCatalog.entries)db.prepare('INSERT OR IGNORE INTO restaurants VALUES(?,?,?,?,?,?,?)').run(r.id,r.name,r.cuisine,r.area,r.description,r.website,r.initials);
+const center=nearbyCatalog.center;
+const radians=n=>n*Math.PI/180;
+const distanceMiles=(a,b,c,d)=>3958.7613*2*Math.asin(Math.sqrt(Math.sin(radians(c-a)/2)**2+Math.cos(radians(a))*Math.cos(radians(c))*Math.sin(radians(d-b)/2)**2));
 if (!db.prepare('SELECT id FROM users WHERE email=?').get('seed-1@sample.invalid')) {
  const names=['Alex M.','Jordan P.','Sam R.','Taylor K.'];
  const comments=['A lovely spot to catch up with friends. I would happily come back.','Really enjoyed my meal. A nice change from my usual routine.','A good experience overall, though it was a little busy when we visited.','One of my favorite stops for a relaxed meal around town.'];
@@ -33,12 +40,13 @@ if (!db.prepare('SELECT id FROM users WHERE email=?').get('seed-1@sample.invalid
   catalog.forEach((r,j)=>db.prepare('INSERT INTO reviews(restaurant_id,user_id,rating,body,created,sample) VALUES(?,?,?,?,?,1)').run(r[0],id, [5,4,4,5,3][(i+j)%5],comments[i],new Date(Date.now()-(i+1)*86400000).toISOString()));
  });
 }
+const features=createFeatures(db);
 const vite=production?null:await (await import('vite')).createServer({server:{middlewareMode:true,hmr:{port:port+20000},fs:{deny:['.env','.env.*','*.{crt,pem}','**/.git/**','**/data/**','**/tmp/**','**/*.sqlite*']}},appType:'spa'});
 const tokenHash=t=>createHash('sha256').update(t).digest('hex');
 const publicUser=u=>u?{id:u.id,name:u.name,email:u.email}:null;
 const limits=new Map();
 function fail(message,status=400){throw Object.assign(new Error(message),{status});}
-async function body(req){let text='';for await(const chunk of req){text+=chunk;if(text.length>12000)fail('Request is too large.',413);}try{return JSON.parse(text||'{}')}catch{fail('Invalid JSON.')}}
+async function body(req,limit=12000){let text='';for await(const chunk of req){text+=chunk;if(text.length>limit)fail('Request is too large.',413);}try{return JSON.parse(text||'{}')}catch{fail('Invalid JSON.')}}
 function getUser(req){const token=req.headers.cookie?.match(/(?:^|; )session=([a-f0-9]+)/)?.[1];return token?db.prepare('SELECT users.* FROM users JOIN sessions ON users.id=sessions.user_id WHERE token=? AND expires>?').get(tokenHash(token),Date.now()):null;}
 function session(res,id){const token=randomBytes(32).toString('hex');db.prepare('DELETE FROM sessions WHERE expires<?').run(Date.now());db.prepare('INSERT INTO sessions VALUES(?,?,?)').run(tokenHash(token),id,Date.now()+7*86400000);res.setHeader('Set-Cookie',`session=${token}; HttpOnly; SameSite=Lax; Path=/; Max-Age=604800${process.env.COOKIE_SECURE==='1'?'; Secure':''}`);}
 const server=http.createServer(async(req,res)=>{
@@ -57,10 +65,18 @@ const server=http.createServer(async(req,res)=>{
  try{
   if(req.method!=='GET'&&req.headers.origin&&new URL(req.headers.origin).host!==req.headers.host)fail('Request origin is not allowed.',403);
   const user=getUser(req);
+  if(await features.handle(req,res,url,user,send,body,fail))return;
   if(url.pathname==='/api/me'&&req.method==='GET')return send(publicUser(user));
+  if(url.pathname==='/api/my-reviews'&&req.method==='GET'){
+   if(!user)fail('Sign in to see your reviews.',401);
+   return send(db.prepare('SELECT v.*, r.name restaurant_name, r.cuisine restaurant_cuisine FROM reviews v JOIN restaurants r ON r.id=v.restaurant_id WHERE v.user_id=? ORDER BY v.created DESC').all(user.id));
+  }
   if(url.pathname==='/api/restaurants'&&req.method==='GET'){
    const q=(url.searchParams.get('q')||'').trim().toLowerCase();
-   return send(db.prepare('SELECT r.*, ROUND(AVG(v.rating),1) rating, COUNT(v.id) count FROM restaurants r LEFT JOIN reviews v ON r.id=v.restaurant_id GROUP BY r.id ORDER BY r.id').all().map(r=>({...r,...restaurantLocations[r.id]})).filter(r=>`${r.name} ${r.cuisine} ${r.area} ${r.address||''} ${r.description}`.toLowerCase().includes(q)));
+   return send(db.prepare('SELECT r.*, ROUND(AVG(v.rating),1) rating, COUNT(v.id) count FROM restaurants r LEFT JOIN reviews v ON r.id=v.restaurant_id GROUP BY r.id ORDER BY r.id').all().map(r=>{
+    const place={...r,...restaurantLocations[r.id],...nearbyById.get(r.id)};
+    return features.enrich({...place,distance_miles:place.distance_miles??Math.round(distanceMiles(center.lat,center.lng,place.lat,place.lng)*10)/10},user);
+   }).filter(r=>Number.isFinite(r.distance_miles)&&r.distance_miles<=10&&`${r.name} ${r.cuisine} ${r.area} ${r.address||''} ${r.description} ${r.tags.join(' ')}`.toLowerCase().includes(q)));
   }
   const match=url.pathname.match(/^\/api\/restaurants\/(\d+)\/reviews$/);
   if(match){
@@ -69,9 +85,10 @@ const server=http.createServer(async(req,res)=>{
    if(!user)fail('Sign in to share your experience.',401);
    if(req.method==='POST'){
     const data=await body(req);const review=typeof data.body==='string'?data.body.trim():'';
+    features.validate(data,fail);
     if(!Number.isInteger(data.rating)||data.rating<1||data.rating>5)fail('Choose a rating from 1 to 5.');
     if(review.length<10||review.length>1000)fail('Write a review between 10 and 1,000 characters.');
-    db.prepare('INSERT INTO reviews(restaurant_id,user_id,rating,body,created) VALUES(?,?,?,?,?) ON CONFLICT(restaurant_id,user_id) DO UPDATE SET rating=excluded.rating,body=excluded.body,created=excluded.created').run(id,user.id,data.rating,review,new Date().toISOString());return send({ok:true});
+    db.prepare('INSERT INTO reviews(restaurant_id,user_id,rating,body,created) VALUES(?,?,?,?,?) ON CONFLICT(restaurant_id,user_id) DO UPDATE SET rating=excluded.rating,body=excluded.body,created=excluded.created').run(id,user.id,data.rating,review,new Date().toISOString());features.save(id,user.id,data);return send({ok:true});
    }
    if(req.method==='DELETE'){db.prepare('DELETE FROM reviews WHERE restaurant_id=? AND user_id=?').run(id,user.id);return send({ok:true});}
   }

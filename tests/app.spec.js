@@ -3,15 +3,19 @@ import AxeBuilder from '@axe-core/playwright';
 
 test('catalog, live search, empty state, responsive layout and accessibility',async({page})=>{
  await page.goto('/');
- await expect(page.locator('.restaurant-card')).toHaveCount(5);
+ await expect(page.locator('.restaurant-card')).toHaveCount(24);
+ await expect(page.getByRole('button',{name:/Show more restaurants/})).toBeVisible();
+ await page.getByRole('button',{name:/Show more restaurants/}).click();
+ await expect(page.locator('.restaurant-card')).toHaveCount(48);
  await page.screenshot({path:'test-results/desktop.png',fullPage:true});
  await page.getByRole('searchbox').fill('italian');
- await expect(page.locator('.restaurant-card')).toHaveCount(1);
+ await expect(page.locator('#result-count')).toContainText('italian');
+ await expect(page.locator('.restaurant-card').count()).resolves.toBeGreaterThan(1);
  await expect(page.getByRole('button',{name:'Zeppoli’s',exact:true})).toBeVisible();
  await page.getByRole('searchbox').fill('nothing-matches-xyz');
  await expect(page.getByText('No spots found this time.')).toBeVisible();
  await page.getByRole('button',{name:'Show all restaurants'}).click();
- await expect(page.locator('.restaurant-card')).toHaveCount(5);
+ await expect(page.locator('.restaurant-card')).toHaveCount(24);
  expect((await new AxeBuilder({page}).withTags(['wcag2a','wcag2aa','wcag21aa']).analyze()).violations).toEqual([]);
  await page.setViewportSize({width:390,height:844});
  await page.screenshot({path:'test-results/mobile.png',fullPage:true});
@@ -20,7 +24,7 @@ test('catalog, live search, empty state, responsive layout and accessibility',as
  await page.getByRole('button',{name:'Cabo Fish Taco',exact:true}).click();
  await expect(page.getByRole('dialog').getByRole('heading',{name:'Cabo Fish Taco',exact:true})).toBeVisible();
  expect((await new AxeBuilder({page}).withTags(['wcag2a','wcag2aa','wcag21aa']).analyze()).violations).toEqual([]);
- await page.keyboard.press('Escape');
+ await page.getByRole('button',{name:'Close dialog'}).click();
  await expect(page.getByRole('dialog')).not.toBeVisible();
 });
 
@@ -91,15 +95,18 @@ test('demo onboarding and server validation prevent unauthorized changes',async(
 
 test('map markers open reviews, follow searches and remain keyboard accessible',async({page})=>{
  await page.goto('/');
- await expect(page.locator('.restaurant-pin')).toHaveCount(5);
  const restaurants=await(await page.request.get('/api/restaurants')).json();
- expect(restaurants.every(r=>r.address&&r.lat>37.20&&r.lat<37.25&&r.lng>-80.45&&r.lng<-80.39)).toBeTruthy();
+ expect(restaurants.length).toBeGreaterThan(200);
+ expect(restaurants.every(r=>r.distance_miles<=10&&Number.isFinite(r.lat)&&Number.isFinite(r.lng))).toBeTruthy();
+ await expect(page.locator('.marker-cluster')).not.toHaveCount(0);
+ await page.getByRole('searchbox').fill('Cabo Fish Taco');
+ await expect(page.locator('.restaurant-pin')).toHaveCount(1);
  await page.locator('.restaurant-pin').filter({hasText:'1'}).click();
  await expect(page.getByRole('dialog').getByRole('heading',{name:'Cabo Fish Taco',exact:true})).toBeVisible();
  await expect(page.getByText('117 South Main Street, Blacksburg, VA 24060',{exact:true})).toBeVisible();
  await expect(page.getByRole('link',{name:'Get directions'})).toHaveAttribute('href',/destination=117%20South%20Main/);
  await expect(page.getByText(`${restaurants.find(r=>r.id===1).count} community reviews`)).toBeVisible();
- await page.keyboard.press('Escape');
+ await page.getByRole('button',{name:'Close dialog'}).click();
  await page.locator('#map-panel').screenshot({path:'test-results/map-desktop.png'});
  await page.setViewportSize({width:390,height:844});
  await page.getByRole('button',{name:'Fit restaurants'}).click();
@@ -112,8 +119,10 @@ test('map markers open reviews, follow searches and remain keyboard accessible',
    expect(box.y+box.height).toBeLessThanOrEqual(bounds.y+bounds.height);
  }
  await page.locator('#map-panel').screenshot({path:'test-results/map-mobile.png'});
- await page.getByRole('searchbox').fill('1329');
+ await page.getByRole('searchbox').fill('1329 South Main Street');
+ await expect(page.getByRole('button',{name:'Our Daily Bread',exact:true})).toBeVisible();
  await expect(page.locator('.restaurant-pin')).toHaveCount(1);
+ await expect(page.locator('.restaurant-pin')).toHaveAttribute('aria-label',/Our Daily Bread/);
  await expect(page.locator('.restaurant-card')).toHaveCount(1);
  await page.locator('.restaurant-pin').focus();await page.keyboard.press('Enter');
  await expect(page.getByRole('dialog').getByRole('heading',{name:'Our Daily Bread',exact:true})).toBeVisible();
@@ -121,6 +130,7 @@ test('map markers open reviews, follow searches and remain keyboard accessible',
  await page.getByRole('button',{name:'Hide map',exact:true}).click();
  await expect(page.locator('#map-panel')).toBeHidden();
  await page.getByRole('searchbox').fill('gillies');
+ await expect(page.getByRole('button',{name:'Gillies',exact:true})).toBeVisible();
  await expect(page.locator('.restaurant-card')).toHaveCount(1);
  await page.getByRole('button',{name:'Show map',exact:true}).click();
  await expect(page.locator('.restaurant-pin')).toHaveCount(1);
@@ -138,10 +148,11 @@ test('map tile failure preserves restaurant access on mobile',async({page})=>{
  await page.route('https://tile.openstreetmap.org/**',route=>route.abort());
  await page.setViewportSize({width:390,height:844});
  await page.goto('/');
- await expect(page.locator('.restaurant-pin')).toHaveCount(5);
+ await page.getByRole('searchbox').fill('Zeppoli');
+ await expect(page.locator('.restaurant-pin')).toHaveCount(1);
  await expect(page.locator('#map-status')).toBeVisible();
  await page.getByRole('button',{name:'Fit restaurants'}).click();
- await page.locator('.restaurant-pin').filter({hasText:'4'}).click();
+ await page.locator('.restaurant-pin').click();
  await expect(page.getByRole('dialog').getByRole('heading',{name:'Zeppoli’s',exact:true})).toBeVisible();
  await page.keyboard.press('Escape');
  expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBeTruthy();
