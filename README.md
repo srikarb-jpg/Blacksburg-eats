@@ -9,9 +9,9 @@ Blacksburg Eats helps Virginia Tech students and other local diners discover pla
 | Team member | Email |
 | --- | --- |
 | Srikar Burugula | srikarb@vt.edu|
-| Kayden Moraes | **Email needed before submission** |
-| Siddharth Dhar | **Email needed before submission** |
-| Anvit Koppella | **Email needed before submission** |
+| Kayden Moraes | kaydenm@vt.edu |
+| Siddharth Dhar | sidm@vt.edu  |
+| Anvit Koppella | akoppell@vt.edu |
 
 
 ## The problem and our solution
